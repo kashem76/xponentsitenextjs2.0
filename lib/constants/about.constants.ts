@@ -76,6 +76,3 @@ export const ABOUT_TEAM_HIGHLIGHTS: IAboutTeamHighlight[] = [
   { text: "Continuous learning and professional development" },
   { text: "Collaborative, supportive environment" },
 ];
-
-export const ABOUT_TEAM_IMAGE =
-  "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop";

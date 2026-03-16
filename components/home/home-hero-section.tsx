@@ -1,6 +1,5 @@
 import { ArrowRight } from "lucide-react";
 import { ImageWithFallback } from "@/components/common/image-with-fallback";
-import { HOME_HERO_IMAGE } from "@/lib/constants/home.constants";
 
 export default function HomeHeroSection() {
   return (
@@ -46,7 +45,7 @@ export default function HomeHeroSection() {
 
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src={HOME_HERO_IMAGE}
+                src={`https://images.unsplash.com/photo-1762341121032-510ad9df0ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMGxhcHRvcCUyMG1vZGVybiUyMG9mZmljZXxlbnwxfHx8fDE3NzMwODM4NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080`}
                 alt="Professional working on laptop"
                 className="w-full h-auto object-cover"
               />

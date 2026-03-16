@@ -1,9 +1,6 @@
 import { CheckCircle } from "lucide-react";
 import { ImageWithFallback } from "@/components/common/image-with-fallback";
-import {
-  ABOUT_TEAM_HIGHLIGHTS,
-  ABOUT_TEAM_IMAGE,
-} from "@/lib/constants/about.constants";
+import { ABOUT_TEAM_HIGHLIGHTS } from "@/lib/constants/about.constants";
 
 export default function AboutTeamSection() {
   return (
@@ -34,7 +31,7 @@ export default function AboutTeamSection() {
           </div>
           <div className="relative">
             <ImageWithFallback
-              src={ABOUT_TEAM_IMAGE}
+              src={`https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop`}
               alt="Xponent Team"
               className="rounded-2xl shadow-2xl w-full h-auto"
             />
