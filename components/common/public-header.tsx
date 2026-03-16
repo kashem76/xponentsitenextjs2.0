@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { Logo } from "@/components/common/logo";
-import { PUBLIC_NAV_LINKS } from "@/lib/constants/public-layout";
+import { PUBLIC_NAV_LINKS } from "@/lib/constants/public-layout.constants";
 
 export default function PublicHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

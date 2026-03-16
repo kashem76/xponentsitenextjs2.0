@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { ImageWithFallback } from "@/components/common/image-with-fallback";
-import { HOME_HERO_IMAGE } from "@/lib/constants/home";
+import { HOME_HERO_IMAGE } from "@/lib/constants/home.constants";
 
 export default function HomeHeroSection() {
   return (

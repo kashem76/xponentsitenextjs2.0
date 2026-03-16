@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { HOME_ERROR_IMAGE_SRC } from "@/lib/constants/home";
+import { HOME_ERROR_IMAGE_SRC } from "@/lib/constants/home.constants";
 
 interface IImageWithFallbackProps extends React.ImgHTMLAttributes<HTMLImageElement> {}
 

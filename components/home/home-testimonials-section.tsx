@@ -1,6 +1,6 @@
 import { Quote } from "lucide-react";
 import DotSVGBGPattern from "@/components/common/dot-svg-bg-pattern";
-import { HOME_TESTIMONIALS } from "@/lib/constants/home";
+import { HOME_TESTIMONIALS } from "@/lib/constants/home.constants";
 
 export default function HomeTestimonialsSection() {
   return (

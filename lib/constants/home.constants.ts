@@ -4,7 +4,7 @@ import {
   IHomeService,
   IHomeTestimonial,
   IHomeTrustedCompany,
-} from "@/lib/types/home";
+} from "@/lib/types/home.types";
 
 export const HOME_HERO_IMAGE =
   "https://images.unsplash.com/photo-1762341121032-510ad9df0ba6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMGxhcHRvcCUyMG1vZGVybiUyMG9mZmljZXxlbnwxfHx8fDE3NzMwODM4NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080";

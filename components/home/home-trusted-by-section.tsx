@@ -1,4 +1,4 @@
-import { HOME_TRUSTED_COMPANIES } from "@/lib/constants/home";
+import { HOME_TRUSTED_COMPANIES } from "@/lib/constants/home.constants";
 
 export default function HomeTrustedBySection() {
   return (

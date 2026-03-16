@@ -1,4 +1,4 @@
-import { HOME_VALUES } from "@/lib/constants/home";
+import { HOME_VALUES } from "@/lib/constants/home.constants";
 
 export default function HomeValuesSection() {
   return (

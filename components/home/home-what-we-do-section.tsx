@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import DotSVGBGPattern from "@/components/common/dot-svg-bg-pattern";
-import { HOME_SERVICES } from "@/lib/constants/home";
+import { HOME_SERVICES } from "@/lib/constants/home.constants";
 
 export default function HomeWhatWeDoSection() {
   return (

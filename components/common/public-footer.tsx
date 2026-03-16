@@ -5,8 +5,8 @@ import {
   PUBLIC_FOOTER_LINK_GROUPS,
   COMPANY_EMAIL,
   COMPANY_NAME,
-} from "@/lib/constants/public-layout";
-import { IPublicFooterLink } from "@/lib/types/public-layout";
+} from "@/lib/constants/public-layout.constants";
+import { IPublicFooterLink } from "@/lib/types/public-layout.types";
 
 interface IPublicFooterLinkProps {
   link: IPublicFooterLink;

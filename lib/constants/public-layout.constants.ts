@@ -1,7 +1,7 @@
 import {
   IPublicNavLink,
   IPublicFooterLinkGroup,
-} from "@/lib/types/public-layout";
+} from "@/lib/types/public-layout.types";
 
 export const PUBLIC_NAV_LINKS: IPublicNavLink[] = [
   { label: "Services", href: "/services" },
