@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft, Calendar, User, Clock } from "lucide-react";
 import { IBlog } from "@/lib/types/blog.types";
-import { formatBlogDateLong } from "@/lib/utils/format-blog-date";
+import { formatBlogDateLong } from "@/lib/utils/blog/format-blog-date";
 
 interface IBlogTemplateProps {
   blog: IBlog;

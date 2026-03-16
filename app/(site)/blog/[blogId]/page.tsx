@@ -1,5 +1,5 @@
 import BlogTemplate from "@/components/blog/blogId/blog-template";
-import { getAllBlogs, getBlogById } from "@/lib/utils/get-blog-by-id";
+import { getAllBlogs, getBlogById } from "@/lib/utils/blog/get-blog-by-id";
 import { notFound } from "next/navigation";
 
 interface IBlogDetailPageProps {

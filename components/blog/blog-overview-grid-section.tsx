@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Calendar, User, Clock, ArrowRight } from "lucide-react";
 import { IBlog } from "@/lib/types/blog.types";
-import { formatBlogDate } from "@/lib/utils/format-blog-date";
+import { formatBlogDate } from "@/lib/utils/blog/format-blog-date";
 
 interface IBlogOverviewGridSectionProps {
   blogs: IBlog[];
