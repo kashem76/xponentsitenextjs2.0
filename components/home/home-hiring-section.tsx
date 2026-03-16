@@ -1,6 +1,6 @@
 export default function HomeHiringSection() {
   return (
-    <section className="py-24 lg:py-32 px-6 lg:px-8 bg-gradient-to-br from-primary to-primary/90 border-t border-primary-foreground/20 relative overflow-hidden">
+    <section className="py-24 lg:py-32 px-6 lg:px-8 bg-linear-to-br from-primary to-primary/90 border-t border-primary-foreground/20 relative overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 right-0 w-96 h-96 bg-accent rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>

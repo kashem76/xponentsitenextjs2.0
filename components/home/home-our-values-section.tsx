@@ -28,7 +28,7 @@ export default function HomeValuesSection() {
               className="bg-white rounded-2xl p-8 lg:p-10 border-4 border-accent shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
             >
               <div className="flex items-start gap-6">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <span className="flex items-center justify-center h-14 w-14 rounded-full bg-accent text-primary text-2xl font-bold shadow-md">
                     {value.icon}
                   </span>

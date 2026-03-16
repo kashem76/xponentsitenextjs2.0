@@ -36,7 +36,7 @@ export default function HomeWhatWeDoSection() {
             <div className="space-y-6 mb-10">
               {HOME_SERVICES.map((service, index) => (
                 <div key={index} className="flex gap-4">
-                  <div className="flex-shrink-0">
+                  <div className="shrink-0">
                     <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                       <service.icon className="h-6 w-6 text-primary" />
                     </div>
