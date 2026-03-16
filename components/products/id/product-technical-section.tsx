@@ -25,7 +25,7 @@ export default function ProductTechnicalSection({
         <div className="grid md:grid-cols-2 gap-4">
           {highlights.map((highlight, index) => (
             <div key={index} className="flex items-start gap-4 p-4">
-              <CheckCircle className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+              <CheckCircle className="h-5 w-5 text-accent shrink-0 mt-0.5" />
               <p className="leading-relaxed">{highlight}</p>
             </div>
           ))}

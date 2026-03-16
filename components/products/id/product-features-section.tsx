@@ -30,7 +30,7 @@ export default function ProductFeaturesSection({
               className="bg-card p-8 rounded-xl border border-gray-200 hover:border-accent/50 transition-all duration-300 hover:shadow-lg"
             >
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center text-accent">
+                <div className="shrink-0 w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center text-accent">
                   {getIconComponent({
                     iconName: feature.icon,
                     className: "h-6 w-6",
