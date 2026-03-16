@@ -22,7 +22,7 @@ export default function ServiceDeliverablesSection({
               key={index}
               className="flex items-start gap-4 p-4 bg-muted/20 rounded-lg"
             >
-              <Package className="h-6 w-6 text-accent flex-shrink-0 mt-1" />
+              <Package className="h-6 w-6 text-accent shrink-0 mt-1" />
               <p className="text-lg leading-relaxed">{deliverable}</p>
             </div>
           ))}

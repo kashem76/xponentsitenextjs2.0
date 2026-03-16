@@ -7,6 +7,8 @@ interface IServiceBenefitsSectionProps {
 export default function ServiceBenefitsSection({
   benefits,
 }: IServiceBenefitsSectionProps) {
+  if (!benefits || benefits.length === 0) return null;
+
   return (
     <section className="py-20 lg:py-24 px-6 lg:px-8 bg-background">
       <div className="max-w-5xl mx-auto">
