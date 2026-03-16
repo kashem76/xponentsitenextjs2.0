@@ -1,0 +1,69 @@
+{
+  // ===============================
+  // ✅ EDITOR CORE
+  // ===============================
+  "editor.fontFamily": "'Cascadia Code','Space Grotesk','monospace'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 3,
+  "editor.cursorSurroundingLines": 1,
+  "editor.accessibilitySupport": "off",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 300000,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // ===============================
+  // ✅ FORMATTERS BY LANGUAGE
+  // ===============================
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  // ===============================
+  // ✅ TYPESCRIPT / JAVASCRIPT
+  // ===============================
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // ===============================  `
+  // ✅ TAILWIND
+  // ===============================
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  // ===============================
+  // ✅ TERMINAL
+  // ===============================
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.cursorWidth": 3,
+  "terminal.integrated.focusAfterRun": "bash"
+}
