@@ -10,6 +10,6 @@ export function getIconComponent({
   iconName,
   className = "h-8 w-8",
 }: IGetIconComponentProps) {
-  const Icon = (Icons as Record<string, LucideIcon>)[iconName];
+  const Icon = (Icons as unknown as Record<string, LucideIcon>)[iconName];
   return Icon ? <Icon className={className} /> : null;
 }

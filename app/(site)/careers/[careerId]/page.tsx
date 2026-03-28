@@ -1,5 +1,4 @@
-// app/careers/[careerId]/page.tsx
-
+// app/(site)/careers/[careerId]/page.tsx
 import { notFound } from "next/navigation";
 import careersData from "@/lib/data/careers.json";
 import { ICareer } from "@/lib/types/careers.types";
@@ -11,6 +10,7 @@ import CareerDetailResponsibilities from "@/components/careers/detail/career-det
 import CareerDetailRequirements from "@/components/careers/detail/career-detail-requirements";
 import CareerDetailMetrics from "@/components/careers/detail/career-detail-metrics";
 import CareerDetailWhyJoin from "@/components/careers/detail/career-detail-why-join";
+import { Metadata } from "next";
 
 interface PageProps {
   params: Promise<{
@@ -18,8 +18,79 @@ interface PageProps {
   }>;
 }
 
+// Generate static params for all careers
+export async function generateStaticParams() {
+  return careersData.careers.map((career: ICareer) => ({
+    careerId: career.id,
+  }));
+}
+
+// Generate metadata for SEO
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { careerId } = await params;
+  const career = careersData.careers.find((c: ICareer) => c.id === careerId) as
+    | ICareer
+    | undefined;
+
+  if (!career) {
+    return {
+      title: "Career Not Found",
+    };
+  }
+
+  const description =
+    career.overview.substring(0, 155) ||
+    `Join Xponent InfoSystem as a ${career.title}. ${career.location} - ${career.type}`;
+
+  return {
+    title: `${career.title} - ${career.location} | Xponent Careers`,
+    description,
+    keywords: [
+      career.title,
+      `${career.title} Bangladesh`,
+      career.department,
+      career.location,
+      career.type,
+      "software developer jobs",
+      "IT jobs Bangladesh",
+      "Xponent careers",
+      "tech jobs",
+    ],
+    openGraph: {
+      title: `${career.title} - ${career.location} | Xponent Careers`,
+      description,
+      url: `https://www.xponent.com.bd/careers/${careerId}`,
+      type: "website",
+      locale: "en_US",
+      siteName: "Xponent InfoSystem",
+      images: [
+        {
+          url: "/images/careers-og.jpg",
+          width: 1200,
+          height: 630,
+          alt: `${career.title} at Xponent InfoSystem`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${career.title} - ${career.location} | Xponent`,
+      description,
+      images: ["/images/careers-og.jpg"],
+    },
+    alternates: {
+      canonical: `https://www.xponent.com.bd/careers/${careerId}`,
+    },
+    robots: {
+      index: career.isOpen,
+      follow: true,
+    },
+  };
+}
+
 export default async function CareerDetailPage({ params }: PageProps) {
-  console.log(params);
   const { careerId } = await params;
   const career = careersData.careers.find((c: ICareer) => c.id === careerId) as
     | ICareer
@@ -77,29 +148,4 @@ export default async function CareerDetailPage({ params }: PageProps) {
       )}
     </div>
   );
-}
-
-// Generate static params for all careers (optional, for static generation)
-export async function generateStaticParams() {
-  return careersData.careers.map((career: ICareer) => ({
-    careerId: career.id,
-  }));
-}
-
-// Generate metadata for SEO
-export async function generateMetadata({ params }: PageProps) {
-  const career = careersData.careers.find(
-    async (c: ICareer) => c.id === (await params).careerId,
-  ) as ICareer | undefined;
-
-  if (!career) {
-    return {
-      title: "Career Not Found",
-    };
-  }
-
-  return {
-    title: `${career.title} - Xponent Careers`,
-    description: career.overview.substring(0, 160),
-  };
 }

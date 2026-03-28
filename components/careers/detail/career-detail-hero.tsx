@@ -64,7 +64,7 @@ export default function CareerDetailHero({ career }: CareerDetailHeroProps) {
           {career.postedDate && (
             <div className="flex items-center gap-2">
               <Calendar className="h-5 w-5" />
-              <span className="font-medium">Posted {career.postedDate}</span>
+              <span className="font-medium">Posted on {career.postedDate}</span>
             </div>
           )}
         </div>
