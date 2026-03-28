@@ -1,3 +1,4 @@
+// app/(site)/products/page.tsx
 import ProductsOverviewHeaderSection from "@/components/products/products-overview-header-section";
 import ProductsOverviewGridSection from "@/components/products/products-overview-grid-section";
 import ProductsOverviewCtaSection from "@/components/products/products-overview-cta-section";

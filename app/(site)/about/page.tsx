@@ -1,3 +1,4 @@
+// app/(site)/about/page.tsx
 import AboutHeroSection from "@/components/about/about-hero-section";
 import AboutValuesSection from "@/components/about/about-values-section";
 import AboutStatsSection from "@/components/about/about-stats-section";

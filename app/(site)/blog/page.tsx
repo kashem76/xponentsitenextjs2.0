@@ -1,3 +1,4 @@
+// app/(site)/blog/page.tsx
 import BlogOverviewHeroSection from "@/components/blog/blog-overview-hero-section";
 import BlogOverviewGridSection from "@/components/blog/blog-overview-grid-section";
 import BlogOverviewCtaSection from "@/components/blog/blog-overview-cta-section";

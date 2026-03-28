@@ -1,3 +1,4 @@
+// app/(site)/blog/[blogId]page.tsx
 import BlogTemplate from "@/components/blog/blogId/blog-template";
 import { getAllBlogs, getBlogById } from "@/lib/utils/blog/get-blog-by-id";
 import { notFound } from "next/navigation";

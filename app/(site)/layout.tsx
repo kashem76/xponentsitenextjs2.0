@@ -1,3 +1,4 @@
+// app/(site)/layout.tsx
 import PublicFooter from "@/components/common/public-footer";
 import PublicHeader from "@/components/common/public-header";
 

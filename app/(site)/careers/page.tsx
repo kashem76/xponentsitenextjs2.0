@@ -1,3 +1,4 @@
+// app/(site)/careers/page.tsx
 import CareersCtaSection from "@/components/careers/careers-cta-section";
 import CareersCultureSection from "@/components/careers/careers-culture-section";
 import CareersHeroSection from "@/components/careers/careers-hero-section";

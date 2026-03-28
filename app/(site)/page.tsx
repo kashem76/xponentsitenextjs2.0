@@ -1,3 +1,4 @@
+// app/(site)/page.tsx
 import HomeHeroSection from "@/components/home/home-hero-section";
 import HomeTrustedBySection from "@/components/home/home-trusted-by-section";
 import HomeWhatWeDoSection from "@/components/home/home-what-we-do-section";

@@ -1,3 +1,4 @@
+// app/(site)/services/[id]/page.tsx
 import { notFound } from "next/navigation";
 import ServiceTemplate from "@/components/services/id/service-template";
 import {
