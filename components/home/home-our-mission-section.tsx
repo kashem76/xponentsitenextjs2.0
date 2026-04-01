@@ -46,7 +46,7 @@ export default function HomeMissionSection() {
             {/* Main image */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/assets/196fa81008baed4e048dfa7f13033ac4ac68132d.png"
+                src="/assets/xponent-our-mission.png"
                 alt="Professional team member"
                 className="w-full h-auto object-cover"
               />

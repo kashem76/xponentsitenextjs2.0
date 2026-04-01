@@ -16,7 +16,7 @@ export default function HomeStorySection() {
             {/* Main image */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/assets/bf65ec4783e46891f5366c865e4d7058116522e8.png"
+                src="/assets/xponent-our-story.png"
                 alt="Xponent office workspace"
                 className="w-full h-auto object-cover"
               />

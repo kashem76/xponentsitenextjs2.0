@@ -71,7 +71,7 @@ export default function HomeWhatWeDoSection() {
             {/* Main image */}
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/assets/235bb60dc527892ac54a35ccacb574b498f0dc01.png"
+                src="/assets/xponent-what-we-do.png"
                 alt="Professional team member"
                 className="w-full h-auto object-cover"
               />

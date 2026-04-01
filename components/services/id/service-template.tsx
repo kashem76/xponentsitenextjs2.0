@@ -5,6 +5,7 @@ import ServiceCapabilitiesSection from "@/components/services/id/service-capabil
 import ServiceBenefitsSection from "@/components/services/id/service-benefits-section";
 import ServiceIndustriesDeliverablesSection from "@/components/services/id/service-industries-deliverables-section";
 import ServiceCtaSection from "@/components/services/id/service-cta-section";
+import { ServiceStructuredData } from "@/components/services/service-structured-data";
 
 interface IServiceTemplateProps {
   service: IService;
@@ -12,27 +13,31 @@ interface IServiceTemplateProps {
 
 export default function ServiceTemplate({ service }: IServiceTemplateProps) {
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <ServiceHeroSection service={service} />
+    <>
+      <ServiceStructuredData service={service} serviceId={service?.id} />
 
-      {/* Approach Section */}
-      <ServiceApproachSection approach={service.approach} />
+      <div className="min-h-screen">
+        {/* Hero Section */}
+        <ServiceHeroSection service={service} />
 
-      {/* Capabilities Section */}
-      <ServiceCapabilitiesSection capabilities={service.capabilities} />
+        {/* Approach Section */}
+        <ServiceApproachSection approach={service.approach} />
 
-      {/* Benefits Section */}
-      <ServiceBenefitsSection benefits={service.benefits} />
+        {/* Capabilities Section */}
+        <ServiceCapabilitiesSection capabilities={service.capabilities} />
 
-      {/* Industries & Deliverables Section */}
-      <ServiceIndustriesDeliverablesSection
-        industries={service.industries}
-        deliverables={service.deliverables}
-      />
+        {/* Benefits Section */}
+        <ServiceBenefitsSection benefits={service.benefits} />
 
-      {/* CTA Section */}
-      <ServiceCtaSection serviceName={service.name} />
-    </div>
+        {/* Industries & Deliverables Section */}
+        <ServiceIndustriesDeliverablesSection
+          industries={service.industries}
+          deliverables={service.deliverables}
+        />
+
+        {/* CTA Section */}
+        <ServiceCtaSection serviceName={service.name} />
+      </div>
+    </>
   );
 }
