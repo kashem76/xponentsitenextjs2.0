@@ -2,8 +2,11 @@
 import BlogOverviewHeroSection from "@/components/blog/blog-overview-hero-section";
 import BlogOverviewGridSection from "@/components/blog/blog-overview-grid-section";
 import BlogOverviewCtaSection from "@/components/blog/blog-overview-cta-section";
-import { getAllBlogs } from "@/lib/utils/blog/get-blog-by-id";
 import { Metadata } from "next";
+import { getAllPosts } from "@/lib/wp-queries/posts";
+import { getCategories } from "@/lib/wp-queries/categories";
+import { PER_PAGE_FIRST, totalPagesCount } from "@/lib/wp-queries/pagination";
+import BlogPagePagination from "@/components/blog/blog-pagination";
 
 export const metadata: Metadata = {
   title:
@@ -53,8 +56,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function BlogPage() {
-  const blogs = getAllBlogs();
+export const revalidate = 3600; // 1 hour
+
+export default async function BlogPage() {
+  const { posts, total } = await getAllPosts(PER_PAGE_FIRST, 0);
+  const { categories } = await getCategories();
+  const pagesCount = totalPagesCount(total);
 
   return (
     <div className="min-h-screen">
@@ -62,7 +69,18 @@ export default function BlogPage() {
       <BlogOverviewHeroSection />
 
       {/* Blog Grid */}
-      <BlogOverviewGridSection blogs={blogs} />
+      <BlogOverviewGridSection posts={posts} />
+
+      {/* Pagination */}
+      {pagesCount > 1 && (
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 pb-12">
+          <BlogPagePagination
+            basePath="/blog"
+            pagesCount={pagesCount}
+            currentPage={1}
+          />
+        </div>
+      )}
 
       {/* CTA Section */}
       <BlogOverviewCtaSection />
