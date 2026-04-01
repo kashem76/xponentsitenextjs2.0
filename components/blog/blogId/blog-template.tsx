@@ -1,7 +1,7 @@
 // components/blog/slug/blog-template.tsx
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, Calendar, User, Clock } from "lucide-react";
+import { ArrowLeft, Calendar, User, Clock, ArrowRight } from "lucide-react";
 import { IBlogPostSingleGQL } from "@/lib/types/wp-queries";
 import { BlogStructuredData } from "@/components/blog/blog-structured-data";
 import { formatDate } from "@/lib/wp-queries/datetime";
@@ -23,7 +23,18 @@ function estimateReadTime(content: string | null): string {
   return `${Math.max(1, readTime)} min read`;
 }
 
-// Get primary category
+// Helper function to strip HTML and get clean excerpt
+function getExcerpt(excerpt: string | null, content: string | null): string {
+  const text = excerpt || content || "";
+  const stripped = text
+    .replace(/<[^>]*>/g, "")
+    .replace(/&hellip;/g, "...")
+    .replace(/&nbsp;/g, " ")
+    .trim();
+  return stripped;
+}
+
+// Get primary category for IBlogPostSingleGQL
 function getPrimaryCategory(
   post: IBlogPostSingleGQL,
 ): { name: string; slug: string } | null {
@@ -33,12 +44,20 @@ function getPrimaryCategory(
   return null;
 }
 
-// Get author name
+// Get author name for IBlogPostSingleGQL
 function getAuthorName(post: IBlogPostSingleGQL): string {
   if (post.author?.node) {
     return post.author.node.name || "Xponent Team";
   }
   return "Xponent Team";
+}
+
+// Get author avatar URL for IBlogPostSingleGQL
+function getAuthorAvatar(post: IBlogPostSingleGQL): string | null {
+  if (post.author?.node?.avatar?.url) {
+    return post.author.node.avatar.url;
+  }
+  return null;
 }
 
 export default function BlogTemplate({
@@ -162,40 +181,96 @@ export default function BlogTemplate({
         {/* Related Posts */}
         {relatedPosts && relatedPosts.length > 0 && (
           <section className="py-16 px-6 lg:px-8 border-t border-border">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-7xl mx-auto">
               <h2 className="text-2xl lg:text-3xl font-bold mb-8">
                 Related Articles
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {relatedPosts.slice(0, 2).map(({ node: relatedPost }) => (
-                  <Link
-                    key={relatedPost.slug}
-                    href={`/blog/${relatedPost.slug}`}
-                    className="group bg-card border border-border rounded-xl overflow-hidden hover:shadow-lg transition-all"
-                  >
-                    {relatedPost.featuredImage?.node?.sourceUrl && (
-                      <div className="relative w-full aspect-video overflow-hidden">
-                        <Image
-                          src={relatedPost.featuredImage.node.sourceUrl}
-                          alt={relatedPost.title}
-                          fill
-                          sizes="(max-width: 768px) 100vw, 50vw"
-                          className="object-cover group-hover:scale-105 transition-transform duration-300"
-                        />
-                      </div>
-                    )}
-                    <div className="p-6">
-                      <h3 className="text-lg font-bold group-hover:text-primary transition-colors line-clamp-2">
-                        {relatedPost.title}
-                      </h3>
-                      {relatedPost.date && (
-                        <p className="text-muted-foreground text-sm mt-2">
-                          {formatDate(relatedPost.date, "MMM d, yyyy")}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {relatedPosts.slice(0, 3).map(({ node: relatedPost }) => {
+                  const relatedCategory = getPrimaryCategory(relatedPost);
+                  const relatedAuthorName = getAuthorName(relatedPost);
+                  const relatedAuthorAvatar = getAuthorAvatar(relatedPost);
+                  const relatedReadTime = estimateReadTime(relatedPost.content);
+
+                  return (
+                    <article
+                      key={relatedPost.slug}
+                      className="group bg-card border border-border rounded-xl overflow-hidden hover:shadow-lg transition-all"
+                    >
+                      <div className="p-8">
+                        {/* Category Badge - Clickable */}
+                        {relatedCategory ? (
+                          <Link
+                            href={`/blog/categories/${relatedCategory.slug}`}
+                            className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium mb-4 hover:bg-primary/20 transition-colors"
+                          >
+                            {relatedCategory.name}
+                          </Link>
+                        ) : (
+                          <span className="inline-block bg-muted text-muted-foreground px-3 py-1 rounded-full text-sm font-medium mb-4">
+                            Uncategorized
+                          </span>
+                        )}
+
+                        {/* Title - Clickable */}
+                        <Link href={`/blog/${relatedPost.slug}`}>
+                          <h3 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors line-clamp-2">
+                            {relatedPost.title}
+                          </h3>
+                        </Link>
+
+                        {/* Excerpt */}
+                        <p className="text-muted-foreground mb-6 line-clamp-3">
+                          {getExcerpt(relatedPost.excerpt, relatedPost.content)}
                         </p>
-                      )}
-                    </div>
-                  </Link>
-                ))}
+
+                        {/* Meta Info */}
+                        <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground mb-6">
+                          {/* Author with Avatar */}
+                          <div className="flex items-center gap-1.5">
+                            {relatedAuthorAvatar ? (
+                              <Image
+                                src={relatedAuthorAvatar}
+                                alt={relatedAuthorName}
+                                width={20}
+                                height={20}
+                                className="rounded-full object-cover"
+                              />
+                            ) : (
+                              <User className="h-4 w-4" />
+                            )}
+                            <span>{relatedAuthorName}</span>
+                          </div>
+
+                          {/* Date */}
+                          <div className="flex items-center gap-1.5">
+                            <Calendar className="h-4 w-4" />
+                            <span>
+                              {relatedPost.date
+                                ? formatDate(relatedPost.date, "MMM d, yyyy")
+                                : "N/A"}
+                            </span>
+                          </div>
+
+                          {/* Read Time */}
+                          <div className="flex items-center gap-1.5">
+                            <Clock className="h-4 w-4" />
+                            <span>{relatedReadTime}</span>
+                          </div>
+                        </div>
+
+                        {/* Read Article Link */}
+                        <Link
+                          href={`/blog/${relatedPost.slug}`}
+                          className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all"
+                        >
+                          Read Article
+                          <ArrowRight className="h-4 w-4" />
+                        </Link>
+                      </div>
+                    </article>
+                  );
+                })}
               </div>
             </div>
           </section>
