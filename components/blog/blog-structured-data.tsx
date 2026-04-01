@@ -1,23 +1,36 @@
 // components/blog/blog-structured-data.tsx
-import { IBlog } from "@/lib/types/blog.types";
+
+import { IBlogPostSingleGQL } from "@/lib/types/wp-queries";
 
 interface BlogStructuredDataProps {
-  blog: IBlog;
-  blogId: string;
+  post: IBlogPostSingleGQL;
 }
 
-export function BlogStructuredData({ blog, blogId }: BlogStructuredDataProps) {
+export function BlogStructuredData({ post }: BlogStructuredDataProps) {
+  const authorName = post.author?.node?.name || "Xponent Team";
+
+  const category = post.categories?.edges?.[0]?.node?.name || "Technology";
+
+  // Estimate read time
+  const wordCount = (post.content || "")
+    .replace(/<[^>]*>/g, "")
+    .split(/\s+/).length;
+  const readTime = `PT${Math.max(1, Math.ceil(wordCount / 200))}M`;
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    headline: blog.title,
-    description: blog.excerpt,
-    image: `https://www.xponent.com.bd/images/blog/${blogId}-og.jpg`,
-    datePublished: blog.date,
-    dateModified: blog.date,
+    headline: post.title,
+    description:
+      post.seo?.metaDesc ||
+      post.excerpt?.replace(/<[^>]*>/g, "").substring(0, 160) ||
+      "",
+    image: post.featuredImage?.node?.sourceUrl || "",
+    datePublished: post.date,
+    dateModified: post.date,
     author: {
       "@type": "Person",
-      name: blog.author,
+      name: authorName,
     },
     publisher: {
       "@type": "Organization",
@@ -29,11 +42,12 @@ export function BlogStructuredData({ blog, blogId }: BlogStructuredDataProps) {
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://www.xponent.com.bd/blog/${blogId}`,
+      "@id": `https://www.xponent.com.bd/blog/${post.slug}`,
     },
-    articleSection: blog.category,
-    keywords: blog.category,
-    timeRequired: blog.readTime,
+    articleSection: category,
+    keywords:
+      post.tags?.edges?.map(({ node }) => node.name).join(", ") || category,
+    timeRequired: readTime,
   };
 
   return (

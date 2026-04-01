@@ -10,7 +10,7 @@ import BlogPagePagination from "@/components/blog/blog-pagination";
 
 export const metadata: Metadata = {
   title:
-    "Tech Blog | Software Development Insights & Industry Trends | Xponent InfoSystem",
+    "Blog | Software Development Insights & Industry Trends | Xponent InfoSystem",
   description:
     "Stay updated with the latest software development trends, best practices, industry insights, and technology tutorials from Xponent InfoSystem's expert team. Learn about web development, mobile apps, cloud computing, and more.",
   keywords: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "technology news",
   ],
   openGraph: {
-    title: "Tech Blog | Software Development Insights & Industry Trends",
+    title: "Blog | Software Development Insights & Industry Trends",
     description:
       "Expert insights, tutorials, and industry trends from Xponent InfoSystem's development team. Stay ahead in software development and technology.",
     url: "https://www.xponent.com.bd/blog",
@@ -60,7 +60,6 @@ export const revalidate = 3600; // 1 hour
 
 export default async function BlogPage() {
   const { posts, total } = await getAllPosts(PER_PAGE_FIRST, 0);
-  const { categories } = await getCategories();
   const pagesCount = totalPagesCount(total);
 
   return (

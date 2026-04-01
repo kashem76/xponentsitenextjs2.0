@@ -23,10 +23,8 @@ interface BlogPaginatedPageProps {
 export async function generateMetadata({
   params,
 }: BlogPaginatedPageProps): Promise<Metadata> {
-  const { pageNum } = await params;
-
   return {
-    title: `Tech Blog - Page ${pageNum} | Xponent InfoSystem`,
+    title: `Blog | Xponent InfoSystem`,
     description:
       "Stay updated with the latest software development trends, best practices, industry insights, and technology tutorials from Xponent InfoSystem's expert team.",
     robots: {
