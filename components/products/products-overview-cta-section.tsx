@@ -10,10 +10,11 @@ export default function ProductsOverviewCtaSection() {
         We also build fully custom software tailored to your unique business
         requirements.
       </p>
-      <Link href="/#contact">
-        <button className="bg-primary text-primary-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold">
-          Talk to Our Team
-        </button>
+      <Link
+        href="/contact"
+        className="bg-primary text-primary-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold"
+      >
+        Talk to Our Team
       </Link>
     </div>
   );

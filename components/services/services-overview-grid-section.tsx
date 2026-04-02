@@ -11,7 +11,7 @@ export default function ServicesOverviewGridSection({
   services,
 }: IServicesOverviewGridSectionProps) {
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="max-w-7xl px-6 lg:px-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
       {services.map((service) => (
         <Link
           key={service.id}

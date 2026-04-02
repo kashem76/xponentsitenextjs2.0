@@ -13,7 +13,7 @@ export default function CareersCtaSection() {
           We&apos;re always looking for talented people. Send us your resume and
           tell us what you&apos;re passionate about.
         </p>
-        <Link href="/#contact">
+        <Link href="/contact">
           <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold">
             Send General Application
           </button>

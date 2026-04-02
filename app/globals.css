@@ -235,6 +235,7 @@
 
   button {
     font-size: var(--text-base);
+    cursor: pointer;
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
   }
@@ -315,6 +316,16 @@
 
 .remove-appearance {
   -moz-appearance: textfield;
+}
+
+/* 
+===================
+Overcome Tailwind v4 issues 
+===================
+*/
+button,
+a {
+  @apply cursor-pointer;
 }
 
 /* ============================================

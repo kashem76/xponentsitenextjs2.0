@@ -118,7 +118,7 @@ export default async function CategoriesPage() {
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
             {`Get in touch with our team and we'll help you find the information you need.`}
           </p>
-          <Link href="/#contact">
+          <Link href="/contact">
             <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold">
               Contact Us
             </button>

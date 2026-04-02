@@ -10,6 +10,8 @@ import {
   Calendar,
 } from "lucide-react";
 import { ICareer } from "@/lib/types/careers.types";
+import Link from "next/link";
+import { CareerDetailsShareJobLink } from "@/components/careers/detail/career-details-share-job-link";
 
 interface CareerDetailHeroProps {
   career: ICareer;
@@ -70,13 +72,14 @@ export default function CareerDetailHero({ career }: CareerDetailHeroProps) {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4">
-          <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 font-semibold">
+          <Link
+            href={`/contact`}
+            className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 font-semibold"
+          >
             Apply for This Position
             <ArrowRight className="h-5 w-5" />
-          </button>
-          <button className="border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-lg hover:bg-primary-foreground/10 transition-colors font-semibold">
-            Share This Job
-          </button>
+          </Link>
+          <CareerDetailsShareJobLink />
         </div>
       </div>
     </section>

@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { ImageWithFallback } from "@/components/common/image-with-fallback";
 import { IService } from "@/lib/types/services.types";
 import { SERVICE_IMAGES } from "@/lib/constants/services.constants";
+import Link from "next/link";
 
 interface IServiceHeroSectionProps {
   service: IService;
@@ -40,13 +41,19 @@ export default function ServiceHeroSection({
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 font-semibold">
+              <Link
+                href={service?.hero?.primaryCTAHref}
+                className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 font-semibold"
+              >
                 {service.hero.primaryCTA}
                 <ArrowRight className="h-5 w-5" />
-              </button>
-              <button className="border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-lg hover:bg-primary-foreground/10 transition-colors font-semibold">
+              </Link>
+              <Link
+                href={service?.hero?.secondaryCTAHref}
+                className="border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-lg hover:bg-primary-foreground/10 transition-colors font-semibold"
+              >
                 {service.hero.secondaryCTA}
-              </button>
+              </Link>
             </div>
           </div>
 

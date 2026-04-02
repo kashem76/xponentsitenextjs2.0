@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HomeCtaSection() {
   return (
     <section
@@ -13,9 +15,12 @@ export default function HomeCtaSection() {
           streamline your operations and scale your business with custom
           technology solutions.
         </p>
-        <button className="bg-primary text-primary-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold">
+        <Link
+          href={`/contact`}
+          className="bg-primary text-primary-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold"
+        >
           Book a Strategy Consultation
-        </button>
+        </Link>
       </div>
     </section>
   );

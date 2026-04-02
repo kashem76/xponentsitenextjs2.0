@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface IServiceCtaSectionProps {
   serviceName: string;
 }
@@ -16,12 +18,18 @@ export default function ServiceCtaSection({
           {serviceName.toLowerCase()} services.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold">
+          <Link
+            href={`/contact`}
+            className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold"
+          >
             Start a Conversation
-          </button>
-          <button className="bg-white/10 text-white px-8 py-4 rounded-lg hover:bg-white/20 transition-all duration-300 font-semibold border-2 border-white/30">
+          </Link>
+          <Link
+            href={`/products`}
+            className="bg-white/10 text-white px-8 py-4 rounded-lg hover:bg-white/20 transition-all duration-300 font-semibold border-2 border-white/30"
+          >
             View Case Studies
-          </button>
+          </Link>
         </div>
       </div>
     </section>

@@ -15,7 +15,9 @@ export const servicesData: IServicesData = {
           "We design and develop software platforms that match your exact business requirements—from internal tools and customer portals to full-scale enterprise applications. No templates, no compromises.",
         image: "software-development",
         primaryCTA: "Start Your Project",
+        primaryCTAHref: "#service-approach-section",
         secondaryCTA: "View Case Studies",
+        secondaryCTAHref: "/products",
       },
       approach: [
         {
@@ -106,7 +108,9 @@ export const servicesData: IServicesData = {
           "Leverage artificial intelligence and automation to eliminate repetitive tasks, improve accuracy, and free your team to focus on high-value work. From document processing to intelligent decision support.",
         image: "ai-automation",
         primaryCTA: "Explore AI Solutions",
+        primaryCTAHref: "#service-approach-section",
         secondaryCTA: "See Examples",
+        secondaryCTAHref: "/products",
       },
       approach: [
         {
@@ -197,7 +201,9 @@ export const servicesData: IServicesData = {
           "Build the digital foundation your business needs to operate efficiently, serve customers better, and scale without limits. From customer portals to operational platforms.",
         image: "digital-platforms",
         primaryCTA: "Plan Your Platform",
+        primaryCTAHref: "#service-approach-section",
         secondaryCTA: "Learn More",
+        secondaryCTAHref: "/products",
       },
       approach: [
         {
@@ -289,7 +295,9 @@ export const servicesData: IServicesData = {
           "Break down data silos by integrating your existing systems, migrate from legacy platforms to modern technology, and create seamless information flow across your organization.",
         image: "system-integration",
         primaryCTA: "Discuss Integration",
+        primaryCTAHref: "#service-approach-section",
         secondaryCTA: "View Services",
+        secondaryCTAHref: "/products",
       },
       approach: [
         {
@@ -380,7 +388,9 @@ export const servicesData: IServicesData = {
           "Get expert advice on technology decisions, digital transformation roadmaps, software selection, and IT strategy. We help you make informed decisions that align technology with business goals.",
         image: "consulting-strategy",
         primaryCTA: "Book a Consultation",
+        primaryCTAHref: "/contact",
         secondaryCTA: "Our Approach",
+        secondaryCTAHref: "#service-approach-section",
       },
       approach: [
         {
@@ -471,7 +481,9 @@ export const servicesData: IServicesData = {
           "Ongoing technical support, proactive monitoring, security updates, and continuous improvements to ensure your systems remain reliable, secure, and effective.",
         image: "support-maintenance",
         primaryCTA: "Get Support",
+        primaryCTAHref: "#service-approach-section",
         secondaryCTA: "Service Plans",
+        secondaryCTAHref: "/products",
       },
       approach: [
         {

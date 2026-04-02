@@ -14,9 +14,9 @@ export const PUBLIC_FOOTER_COMPANY_LINKS: IPublicFooterLinkGroup = {
   title: "Company",
   links: [
     { label: "About Us", href: "/about" },
-    { label: "Our Team", href: "#" },
+    // { label: "Our Team", href: "/teams" },
     { label: "Careers", href: "/careers" },
-    { label: "Contact", href: "/#contact" },
+    { label: "Contact", href: "/contact" },
   ],
 };
 
@@ -45,12 +45,7 @@ export const PUBLIC_FOOTER_PRODUCTS_LINKS: IPublicFooterLinkGroup = {
 
 export const PUBLIC_FOOTER_RESOURCES_LINKS: IPublicFooterLinkGroup = {
   title: "Resources",
-  links: [
-    { label: "Case Studies", href: "#" },
-    { label: "Blog", href: "/blog" },
-    { label: "Documentation", href: "#" },
-    { label: "Support", href: "#" },
-  ],
+  links: [{ label: "Blog", href: "/blog" }],
 };
 
 export const PUBLIC_FOOTER_LINK_GROUPS: IPublicFooterLinkGroup[] = [
@@ -60,6 +55,6 @@ export const PUBLIC_FOOTER_LINK_GROUPS: IPublicFooterLinkGroup[] = [
   PUBLIC_FOOTER_RESOURCES_LINKS,
 ];
 
-export const COMPANY_EMAIL = "hello@xponent.com";
+export const COMPANY_EMAIL = "hr@xponent.com.bd";
 
 export const COMPANY_NAME = "XPONENT InfoSystem (PVT) Ltd.";

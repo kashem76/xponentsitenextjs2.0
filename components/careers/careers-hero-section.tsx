@@ -20,10 +20,11 @@ export default function CareersHeroSection() {
           software, AI automation, and digital platforms. Work on challenging
           problems, learn cutting-edge technology, and make a real impact.
         </p>
-        <Link href="#open-positions">
-          <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold">
-            View Open Positions
-          </button>
+        <Link
+          href="/careers/#open-positions"
+          className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold"
+        >
+          View Open Positions
         </Link>
       </div>
     </section>

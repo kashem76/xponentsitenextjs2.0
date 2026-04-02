@@ -286,10 +286,11 @@ export default function BlogTemplate({
               Let&apos;s discuss how Xponent can help you build custom software,
               automate processes, and achieve your digital goals.
             </p>
-            <Link href="/#contact">
-              <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold">
-                Get in Touch
-              </button>
+            <Link
+              href="/contact"
+              className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold"
+            >
+              Get in Touch
             </Link>
           </div>
         </section>

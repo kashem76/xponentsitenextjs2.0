@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { ImageWithFallback } from "@/components/common/image-with-fallback";
+import Link from "next/link";
 
 export default function HomeHeroSection() {
   return (
@@ -28,13 +29,19 @@ export default function HomeHeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 font-semibold">
+              <Link
+                href={`/contact`}
+                className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 font-semibold"
+              >
                 Book a Strategy Conversation
                 <ArrowRight className="h-5 w-5" />
-              </button>
-              <button className="border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-lg hover:bg-primary-foreground/10 transition-colors font-semibold">
+              </Link>
+              <Link
+                href={`/services`}
+                className="border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-lg hover:bg-primary-foreground/10 transition-colors font-semibold"
+              >
                 Explore Our Services
-              </button>
+              </Link>
             </div>
           </div>
 

@@ -3,7 +3,9 @@ export interface IProductHero {
   subheadline: string;
   image: string;
   primaryCTA: string;
+  primaryCTAHref: string;
   secondaryCTA: string;
+  secondaryCTAHref: string;
 }
 
 export interface IProductKeyFeature {

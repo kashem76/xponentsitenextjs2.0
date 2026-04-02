@@ -1,6 +1,7 @@
 // components/careers/detail/career-detail-why-join.tsx
 
 import { CheckCircle } from "lucide-react";
+import Link from "next/link";
 
 interface CareerDetailWhyJoinProps {
   reasons: string[];
@@ -25,9 +26,12 @@ export default function CareerDetailWhyJoin({
         </div>
 
         <div className="pt-8 border-t border-white/20">
-          <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold">
+          <Link
+            href={`/contact`}
+            className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold"
+          >
             Apply Now
-          </button>
+          </Link>
         </div>
       </div>
     </section>
