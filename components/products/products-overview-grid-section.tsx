@@ -11,7 +11,7 @@ export default function ProductsOverviewGridSection({
   products,
 }: IProductsOverviewGridSectionProps) {
   return (
-    <div className="grid md:grid-cols-2 gap-8">
+    <div className="grid md:grid-cols-2 gap-8 max-w-7xl px-6 lg:px-8">
       {products.map((product) => (
         <Link
           key={product.id}

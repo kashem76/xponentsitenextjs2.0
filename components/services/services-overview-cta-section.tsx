@@ -10,10 +10,11 @@ export default function ServicesOverviewCtaSection() {
         Schedule a free consultation with our team to discuss your needs and
         explore the best solutions for your business.
       </p>
-      <Link href="/#contact">
-        <button className="bg-primary text-primary-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold">
-          Book a Strategy Call
-        </button>
+      <Link
+        href="/contact"
+        className="bg-primary text-primary-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold"
+      >
+        Book a Strategy Call
       </Link>
     </div>
   );

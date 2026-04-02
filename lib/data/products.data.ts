@@ -15,7 +15,9 @@ export const productsData: IProductsData = {
           "Manage finances, inventory, sales, and operations from one integrated platform. Built for businesses that need reliable financial data and operational control.",
         image: "accounting-workspace",
         primaryCTA: "Schedule a Demo",
+        primaryCTAHref: "/products",
         secondaryCTA: "View Features",
+        secondaryCTAHref: "#product-features",
       },
       keyFeatures: [
         {
@@ -87,7 +89,9 @@ export const productsData: IProductsData = {
           "Run your fitness business more efficiently with automated member management, class scheduling, billing, and engagement tools built specifically for gyms and fitness centers.",
         image: "gym-equipment",
         primaryCTA: "Book a Demo",
+        primaryCTAHref: "/products",
         secondaryCTA: "Explore Features",
+        secondaryCTAHref: "#product-features",
       },
       keyFeatures: [
         {
@@ -159,7 +163,9 @@ export const productsData: IProductsData = {
           "Handle reservations, check-ins, housekeeping, billing, and guest services from one centralized system. Built for hotels, resorts, and hospitality businesses.",
         image: "hotel-lobby",
         primaryCTA: "Request Demo",
+        primaryCTAHref: "/products",
         secondaryCTA: "See Features",
+        secondaryCTAHref: "#product-features",
       },
       keyFeatures: [
         {
@@ -231,7 +237,9 @@ export const productsData: IProductsData = {
           "Organize client projects, track plant inventory, schedule maintenance, and manage crews with a platform built for landscaping and garden management businesses.",
         image: "garden-landscape",
         primaryCTA: "See Demo",
+        primaryCTAHref: "/products",
         secondaryCTA: "Learn More",
+        secondaryCTAHref: "#product-features",
       },
       keyFeatures: [
         {

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HomeHiringSection() {
   return (
     <section className="py-24 lg:py-32 px-6 lg:px-8 bg-linear-to-br from-primary to-primary/90 border-t border-primary-foreground/20 relative overflow-hidden">
@@ -25,12 +27,18 @@ export default function HomeHiringSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-all duration-300 font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105">
+          <Link
+            href={`/careers/#open-positions`}
+            className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-all duration-300 font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105"
+          >
             View open positions
-          </button>
-          <button className="bg-white/10 text-white px-8 py-4 rounded-lg hover:bg-white/20 transition-all duration-300 font-semibold text-lg border-2 border-white/30">
+          </Link>
+          <Link
+            href={`/about`}
+            className="bg-white/10 text-white px-8 py-4 rounded-lg hover:bg-white/20 transition-all duration-300 font-semibold text-lg border-2 border-white/30"
+          >
             Learn about our culture
-          </button>
+          </Link>
         </div>
       </div>
     </section>

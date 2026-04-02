@@ -11,7 +11,10 @@ export default function ProductFeaturesSection({
   if (!features || features.length === 0) return null;
 
   return (
-    <section className="py-20 lg:py-24 px-6 lg:px-8 bg-background">
+    <section
+      className="py-20 lg:py-24 px-6 lg:px-8 bg-background"
+      id="product-features"
+    >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 leading-tight">

@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { ImageWithFallback } from "@/components/common/image-with-fallback";
 import { IProduct } from "@/lib/types/products.types";
 import { PRODUCT_IMAGES } from "@/lib/constants/products.constants";
+import Link from "next/link";
 
 interface IProductHeroSectionProps {
   product: IProduct;
@@ -40,13 +41,19 @@ export default function ProductHeroSection({
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 font-semibold">
+              <Link
+                href={product?.hero?.primaryCTAHref}
+                className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 font-semibold"
+              >
                 {product.hero.primaryCTA}
                 <ArrowRight className="h-5 w-5" />
-              </button>
-              <button className="border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-lg hover:bg-primary-foreground/10 transition-colors font-semibold">
+              </Link>
+              <Link
+                href={product?.hero?.secondaryCTAHref}
+                className="border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-lg hover:bg-primary-foreground/10 transition-colors font-semibold"
+              >
                 {product.hero.secondaryCTA}
-              </button>
+              </Link>
             </div>
           </div>
 

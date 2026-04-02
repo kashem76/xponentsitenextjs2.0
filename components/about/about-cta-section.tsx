@@ -16,11 +16,12 @@ export default function AboutCtaSection() {
               Let&apos;s discuss how we can help you build custom software,
               automate processes, and achieve your digital goals.
             </p>
-            <Link href="/#contact">
-              <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold inline-flex items-center gap-2">
-                Get in Touch
-                <ArrowRight className="h-5 w-5" />
-              </button>
+            <Link
+              className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold inline-flex items-center gap-2"
+              href="/contact"
+            >
+              Get in Touch
+              <ArrowRight className="h-5 w-5" />
             </Link>
           </div>
 
@@ -34,11 +35,12 @@ export default function AboutCtaSection() {
               We&apos;re always looking for talented individuals who are
               passionate about technology and solving complex problems.
             </p>
-            <Link href="/careers">
-              <button className="bg-white text-primary px-8 py-4 rounded-lg hover:bg-white/90 transition-all font-semibold inline-flex items-center gap-2">
-                View Open Positions
-                <ArrowRight className="h-5 w-5" />
-              </button>
+            <Link
+              href="/careers/#open-positions"
+              className="bg-white text-primary px-8 py-4 rounded-lg hover:bg-white/90 transition-all font-semibold inline-flex items-center gap-2"
+            >
+              View Open Positions
+              <ArrowRight className="h-5 w-5" />
             </Link>
           </div>
         </div>

@@ -95,18 +95,12 @@ export default function PublicFooter() {
               © {currentYear} {COMPANY_NAME} All rights reserved.
             </p>
             <div className="flex items-center gap-6">
-              <a
-                href="#privacy"
+              <Link
+                href="/privacy-policy"
                 className="text-sm text-gray-400 hover:text-accent transition-colors"
               >
                 Privacy Policy
-              </a>
-              <a
-                href="#terms"
-                className="text-sm text-gray-400 hover:text-accent transition-colors"
-              >
-                Terms of Service
-              </a>
+              </Link>
             </div>
           </div>
         </div>

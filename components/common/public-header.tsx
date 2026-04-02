@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { Logo } from "@/components/common/logo";
 import { PUBLIC_NAV_LINKS } from "@/lib/constants/public-layout.constants";
+import { Button } from "@/components/ui/button";
 
 export default function PublicHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,11 +32,14 @@ export default function PublicHeader() {
                 {link.label}
               </Link>
             ))}
-            <Link href="/#contact">
-              <button className="bg-accent text-accent-foreground px-6 py-2.5 rounded-lg hover:opacity-90 transition-opacity font-semibold">
-                Contact Us
-              </button>
+            {/* <Button className="" asChild> */}
+            <Link
+              href="/contact"
+              className="bg-accent text-accent-foreground px-6 py-2.5 rounded-lg hover:opacity-90 transition-opacity font-semibold"
+            >
+              Contact Us
             </Link>
+            {/* </Button> */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -65,10 +69,12 @@ export default function PublicHeader() {
                 {link.label}
               </Link>
             ))}
-            <Link href="/#contact" className="block" onClick={closeMenu}>
-              <button className="w-full bg-accent text-accent-foreground px-6 py-2.5 rounded-lg hover:opacity-90 transition-opacity font-semibold">
-                Contact Us
-              </button>
+            <Link
+              href="/contact"
+              className="block w-full bg-accent text-accent-foreground px-6 py-2.5 rounded-lg hover:opacity-90 transition-opacity font-semibold"
+              onClick={closeMenu}
+            >
+              Contact Us
             </Link>
           </div>
         )}
