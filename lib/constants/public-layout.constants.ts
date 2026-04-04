@@ -17,6 +17,7 @@ export const PUBLIC_FOOTER_COMPANY_LINKS: IPublicFooterLinkGroup = {
     // { label: "Our Team", href: "/teams" },
     { label: "Careers", href: "/careers" },
     { label: "Contact", href: "/contact" },
+    { label: "Blog", href: "/blog" },
   ],
 };
 
@@ -43,16 +44,16 @@ export const PUBLIC_FOOTER_PRODUCTS_LINKS: IPublicFooterLinkGroup = {
   ],
 };
 
-export const PUBLIC_FOOTER_RESOURCES_LINKS: IPublicFooterLinkGroup = {
-  title: "Resources",
-  links: [{ label: "Blog", href: "/blog" }],
-};
+// export const PUBLIC_FOOTER_RESOURCES_LINKS: IPublicFooterLinkGroup = {
+//   title: "Resources",
+//   links: [{ label: "Blog", href: "/blog" }],
+// };
 
 export const PUBLIC_FOOTER_LINK_GROUPS: IPublicFooterLinkGroup[] = [
   PUBLIC_FOOTER_COMPANY_LINKS,
   PUBLIC_FOOTER_SERVICES_LINKS,
   PUBLIC_FOOTER_PRODUCTS_LINKS,
-  PUBLIC_FOOTER_RESOURCES_LINKS,
+  // PUBLIC_FOOTER_RESOURCES_LINKS,
 ];
 
 export const COMPANY_EMAIL = "hr@xponent.com.bd";

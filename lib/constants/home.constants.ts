@@ -7,12 +7,18 @@ import {
 } from "@/lib/types/home.types";
 
 export const HOME_TRUSTED_COMPANIES: IHomeTrustedCompany[] = [
-  { name: "ACME Corp" },
-  { name: "TechFlow" },
-  { name: "GlobalBank" },
-  { name: "RetailPro" },
-  { name: "HealthCare+" },
-  { name: "AgriTech" },
+  {
+    name: "Uprankly",
+    logo: "/brand/uprankly-logo.svg",
+  },
+  { name: "Prayogik", logo: "/brand/prayogik-logo.svg" },
+  { name: "Trefle", logo: "/brand/trefle-logo.svg" },
+  {
+    name: "Fitnessbar",
+    logo: "/brand/fitnessbar-logo.png",
+  },
+  { name: "Hyaroo", logo: "/brand/hyaroo-logo.svg" },
+  // { name: "Xponent", logo: "https://example.com/xponent-logo.png" },
 ];
 
 export const HOME_VALUES: IHomeValue[] = [
