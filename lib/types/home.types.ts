@@ -21,5 +21,6 @@ export interface IHomeTestimonial {
 }
 
 export interface IHomeTrustedCompany {
+  logo: string;
   name: string;
 }
