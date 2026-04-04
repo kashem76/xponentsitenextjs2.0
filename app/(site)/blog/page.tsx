@@ -4,7 +4,6 @@ import BlogOverviewGridSection from "@/components/blog/blog-overview-grid-sectio
 import BlogOverviewCtaSection from "@/components/blog/blog-overview-cta-section";
 import { Metadata } from "next";
 import { getAllPosts } from "@/lib/wp-queries/posts";
-import { getCategories } from "@/lib/wp-queries/categories";
 import { PER_PAGE_FIRST, totalPagesCount } from "@/lib/wp-queries/pagination";
 import BlogPagePagination from "@/components/blog/blog-pagination";
 

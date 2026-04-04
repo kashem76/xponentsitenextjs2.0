@@ -126,7 +126,6 @@ export async function getAllPosts(perPage = postsPerPage, offset: number = 0) {
                 }
               }
             }
-            content
             date
             excerpt
             featuredImage {
@@ -290,19 +289,8 @@ export async function getPostsByAuthorSlug(slug: string) {
       },
     );
   } catch (e: any) {
-    console.log(`Failed to query post data: ${e.message}`);
     throw e;
   }
-  console.log(
-    JSON.stringify(
-      postData?.posts.edges.map(({ node }) => {
-        node.content = "";
-        return node;
-      }),
-      null,
-      2,
-    ),
-  );
   const posts = postData.posts.edges.map(({ node }) => mapPostData(node));
   return {
     posts,
@@ -313,7 +301,7 @@ export async function getPostsByAuthorSlug(slug: string) {
 export async function getPostsByCategoryId(
   categoryId: number,
   perPage = 10,
-  offset: number = 1,
+  offset: number = 0,
 ) {
   const data: {
     posts: {
@@ -425,7 +413,7 @@ export async function getTotalPostByCategoryId(categoryId: number) {
  */
 
 export async function getRecentPosts({ count }: { count: number }) {
-  const { posts } = await getAllPosts();
+  const { posts } = await getAllPosts(count, 0);
   const sorted = sortObjectsByDate(posts);
   return {
     posts: sorted.slice(0, count),

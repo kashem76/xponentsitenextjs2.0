@@ -73,7 +73,7 @@ export default function CareerDetailHero({ career }: CareerDetailHeroProps) {
 
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
-            href={`/contact`}
+            href={`/careers/apply?job=${career.id}`}
             className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2 font-semibold"
           >
             Apply for This Position
