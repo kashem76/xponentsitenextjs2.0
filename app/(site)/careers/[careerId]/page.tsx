@@ -144,7 +144,7 @@ export default async function CareerDetailPage({ params }: PageProps) {
 
       {/* Why Join */}
       {career.whyJoin && career.whyJoin.length > 0 && (
-        <CareerDetailWhyJoin reasons={career.whyJoin} />
+        <CareerDetailWhyJoin reasons={career.whyJoin} jobId={career.id} />
       )}
     </div>
   );

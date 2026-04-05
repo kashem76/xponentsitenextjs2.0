@@ -9,16 +9,13 @@ interface IBlogOverviewGridSectionProps {
   posts: IBlogPost[];
 }
 
-// Helper function to estimate read time from content
-function estimateReadTime(content: string | null): string {
-  if (!content) return "3 min read";
-
-  // Strip HTML tags and count words
-  const text = content.replace(/<[^>]*>/g, "");
-  const wordCount = text.split(/\s+/).filter(Boolean).length;
-  const readTime = Math.ceil(wordCount / 200); // Average reading speed: 200 words/min
-
-  return `${Math.max(1, readTime)} min read`;
+// Estimate read time from excerpt (content is not fetched on the index page)
+function estimateReadTime(excerpt: string | null): string {
+  if (!excerpt) return "3 min read";
+  const wordCount = excerpt.replace(/<[^>]*>/g, "").split(/\s+/).filter(Boolean).length;
+  // Excerpts are ~55 words; scale up to approximate full article length
+  const estimated = Math.ceil((wordCount * 15) / 200);
+  return `${Math.max(3, estimated)} min read`;
 }
 
 // Helper function to strip HTML and get clean excerpt
@@ -131,7 +128,7 @@ export default function BlogOverviewGridSection({
                     {/* Read Time */}
                     <div className="flex items-center gap-1.5">
                       <Clock className="h-4 w-4" />
-                      <span>{estimateReadTime(post.content)}</span>
+                      <span>{estimateReadTime(post.excerpt)}</span>
                     </div>
                   </div>
 

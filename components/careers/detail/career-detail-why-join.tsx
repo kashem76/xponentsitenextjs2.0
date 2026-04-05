@@ -5,10 +5,12 @@ import Link from "next/link";
 
 interface CareerDetailWhyJoinProps {
   reasons: string[];
+  jobId: string;
 }
 
 export default function CareerDetailWhyJoin({
   reasons,
+  jobId,
 }: CareerDetailWhyJoinProps) {
   return (
     <section className="py-16 lg:py-20 px-6 lg:px-8 bg-primary">
@@ -27,7 +29,7 @@ export default function CareerDetailWhyJoin({
 
         <div className="pt-8 border-t border-white/20">
           <Link
-            href={`/contact`}
+            href={`/careers/apply?job=${jobId}`}
             className="bg-accent text-accent-foreground px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-semibold"
           >
             Apply Now

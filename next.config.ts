@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "outreachful.allwpblogbackends.com",
       },
+      {
+        protocol: "https",
+        hostname: "xponent.allwpblogbackends.com",
+      },
     ],
   },
 };
