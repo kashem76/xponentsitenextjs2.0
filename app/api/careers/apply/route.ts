@@ -1,15 +1,14 @@
 // app/api/careers/apply/route.ts
-import { Resend } from "resend";
 import { google } from "googleapis";
 import { NextResponse } from "next/server";
-
-const resend = new Resend(process.env.RESEND_API_KEY);
+import { envs } from "@/lib/envs";
+import { resendConfig } from "@/lib/resend/utils";
 
 async function appendToSheet(values: string[][]) {
   const auth = new google.auth.GoogleAuth({
     credentials: {
-      client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
-      private_key: process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, "\n"),
+      client_email: envs.GOOGLE_SERVICE_ACCOUNT_EMAIL,
+      private_key: envs.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, "\n"),
     },
     scopes: ["https://www.googleapis.com/auth/spreadsheets"],
   });
@@ -17,7 +16,7 @@ async function appendToSheet(values: string[][]) {
   const sheets = google.sheets({ version: "v4", auth });
 
   await sheets.spreadsheets.values.append({
-    spreadsheetId: process.env.GOOGLE_SHEET_ID,
+    spreadsheetId: envs.GOOGLE_SHEET_ID,
     range: "Sheet1!A1",
     valueInputOption: "USER_ENTERED",
     requestBody: { values },
@@ -48,10 +47,15 @@ export async function POST(req: Request) {
     !facebook ||
     !coverLetter
   ) {
-    return NextResponse.json({ error: "All fields are required." }, { status: 400 });
+    return NextResponse.json(
+      { error: "All fields are required." },
+      { status: 400 },
+    );
   }
 
-  const submittedAt = new Date().toLocaleString("en-GB", { timeZone: "Asia/Dhaka" });
+  const submittedAt = new Date().toLocaleString("en-GB", {
+    timeZone: "Asia/Dhaka",
+  });
   const fullName = `${firstName} ${lastName}`;
 
   // ── 1. Write to Google Sheet ──────────────────────────────────────────
@@ -74,10 +78,12 @@ export async function POST(req: Request) {
     console.error("Google Sheets error:", err);
     // Don't block the response — still send emails
   }
+  console.log(fullName);
 
   // ── 2. Thank-you email to applicant ───────────────────────────────────
-  const { error: applicantEmailError } = await resend.emails.send({
+  const { error: applicantEmailError } = await resendConfig.emails.send({
     from: "XPONENT Careers <contact@mail.xponent.com.bd>",
+    replyTo: [envs.ADMIN_EMAIL],
     to: [email],
     subject: `Thank you for applying — ${jobTitle}`,
     html: `
@@ -117,7 +123,7 @@ export async function POST(req: Request) {
   }
 
   // ── 3. HR notification email ───────────────────────────────────────────
-  const { error: hrEmailError } = await resend.emails.send({
+  const { error: hrEmailError } = await resendConfig.emails.send({
     from: "XPONENT Careers <contact@mail.xponent.com.bd>",
     to: ["hr@xponent.com.bd"],
     replyTo: email,
@@ -160,7 +166,10 @@ export async function POST(req: Request) {
 
   if (hrEmailError) {
     console.error("HR email error:", hrEmailError);
-    return NextResponse.json({ error: "Failed to send notification." }, { status: 500 });
+    return NextResponse.json(
+      { error: "Failed to send notification." },
+      { status: 500 },
+    );
   }
 
   return NextResponse.json({ success: true });

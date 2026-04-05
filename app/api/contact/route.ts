@@ -1,20 +1,22 @@
 // app/api/contact/route.ts
-import { Resend } from "resend";
 import { NextResponse } from "next/server";
-
-const resend = new Resend(process.env.RESEND_API_KEY);
+import { envs } from "@/lib/envs";
+import { resendConfig } from "@/lib/resend/utils";
 
 export async function POST(req: Request) {
   const { firstName, lastName, email, phone, subject, message } =
     await req.json();
 
   if (!firstName || !lastName || !email || !subject || !message) {
-    return NextResponse.json({ error: "Missing required fields." }, { status: 400 });
+    return NextResponse.json(
+      { error: "Missing required fields." },
+      { status: 400 },
+    );
   }
-
-  const { error } = await resend.emails.send({
+  console.log(firstName, envs.ADMIN_EMAIL);
+  const { error } = await resendConfig.emails.send({
     from: "XPONENT Contact Form <contact@mail.xponent.com.bd>",
-    to: ["admin@xponent.com.bd"],
+    to: [envs.ADMIN_EMAIL],
     replyTo: email,
     subject: `[Contact] ${subject} — ${firstName} ${lastName}`,
     html: `
@@ -32,11 +34,15 @@ export async function POST(req: Request) {
               <td style="padding:8px 0;color:#6c757d;vertical-align:top">Email</td>
               <td style="padding:8px 0"><a href="mailto:${email}" style="color:#2563eb">${email}</a></td>
             </tr>
-            ${phone ? `
+            ${
+              phone
+                ? `
             <tr>
               <td style="padding:8px 0;color:#6c757d;vertical-align:top">Phone</td>
               <td style="padding:8px 0">${phone}</td>
-            </tr>` : ""}
+            </tr>`
+                : ""
+            }
             <tr>
               <td style="padding:8px 0;color:#6c757d;vertical-align:top">Subject</td>
               <td style="padding:8px 0;text-transform:capitalize">${subject}</td>
@@ -55,7 +61,10 @@ export async function POST(req: Request) {
 
   if (error) {
     console.error("Resend error:", error);
-    return NextResponse.json({ error: "Failed to send email." }, { status: 500 });
+    return NextResponse.json(
+      { error: "Failed to send email." },
+      { status: 500 },
+    );
   }
 
   return NextResponse.json({ success: true });
