@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       "Transform your business with Xponent InfoSystem. Expert software development, web & mobile solutions, and IT consulting services in Bangladesh.",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/images/logo.png",
         width: 1200,
         height: 630,
         alt: "Xponent InfoSystem - Leading Software Development Company",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "Xponent InfoSystem | Software Development & IT Solutions",
     description:
       "Transform your business with Xponent InfoSystem. Expert software development, web & mobile solutions, and IT consulting services.",
-    images: ["/images/og-image.jpg"],
+    images: ["/images/logo.png"],
   },
   robots: {
     index: true,
