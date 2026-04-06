@@ -14,7 +14,7 @@ export default function PublicHeader() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-primary border-b border-primary-foreground/10 backdrop-blur-sm">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">

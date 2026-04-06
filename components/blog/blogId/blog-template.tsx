@@ -1,7 +1,14 @@
 // components/blog/slug/blog-template.tsx
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, Calendar, User, Clock, ArrowRight, Tag } from "lucide-react";
+import {
+  ArrowLeft,
+  Calendar,
+  User,
+  Clock,
+  ArrowRight,
+  Tag,
+} from "lucide-react";
 import { IBlogPostSingleGQL } from "@/lib/types/wp-queries";
 import { BlogStructuredData } from "@/components/blog/blog-structured-data";
 import { formatDate } from "@/lib/wp-queries/datetime";
@@ -14,7 +21,10 @@ interface IBlogTemplateProps {
 
 function estimateReadTime(content: string | null): string {
   if (!content) return "3 min read";
-  const wordCount = content.replace(/<[^>]*>/g, "").split(/\s+/).filter(Boolean).length;
+  const wordCount = content
+    .replace(/<[^>]*>/g, "")
+    .split(/\s+/)
+    .filter(Boolean).length;
   return `${Math.max(1, Math.ceil(wordCount / 200))} min read`;
 }
 
@@ -26,7 +36,9 @@ function getExcerpt(excerpt: string | null, content: string | null): string {
     .trim();
 }
 
-function getPrimaryCategory(post: IBlogPostSingleGQL): { name: string; slug: string } | null {
+function getPrimaryCategory(
+  post: IBlogPostSingleGQL,
+): { name: string; slug: string } | null {
   return post.categories?.edges?.[0]?.node ?? null;
 }
 
@@ -34,7 +46,10 @@ function getAuthorName(post: IBlogPostSingleGQL): string {
   return post.author?.node?.name || "Xponent Team";
 }
 
-export default function BlogTemplate({ post, relatedPosts }: IBlogTemplateProps) {
+export default function BlogTemplate({
+  post,
+  relatedPosts,
+}: IBlogTemplateProps) {
   const category = getPrimaryCategory(post);
   const authorName = getAuthorName(post);
   const authorAvatar = post.author?.node?.avatar?.url ?? null;
@@ -45,7 +60,6 @@ export default function BlogTemplate({ post, relatedPosts }: IBlogTemplateProps)
       <BlogStructuredData post={post} />
 
       <div className="min-h-screen bg-background">
-
         {/* ── Hero ── */}
         <section className="bg-primary pt-32 pb-16 px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
@@ -60,7 +74,7 @@ export default function BlogTemplate({ post, relatedPosts }: IBlogTemplateProps)
             {category && (
               <Link
                 href={`/blog/categories/${category.slug}`}
-                className="inline-block bg-white/15 hover:bg-white/25 text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-5 transition-colors"
+                className="inline-block bg-white/15 ms-5 hover:bg-white/25 text-white px-4 py-1.5 rounded-full text-sm font-semibold mb-5 transition-colors"
               >
                 {category.name}
               </Link>
@@ -120,7 +134,6 @@ export default function BlogTemplate({ post, relatedPosts }: IBlogTemplateProps)
         {/* ── Content + Sidebar ── */}
         <div className="px-6 lg:px-8 py-14">
           <div className="max-w-5xl mx-auto flex flex-col lg:flex-row gap-12 items-start">
-
             {/* Article */}
             <article
               className="min-w-0 flex-1 prose prose-base lg:prose-lg max-w-none
@@ -133,15 +146,18 @@ export default function BlogTemplate({ post, relatedPosts }: IBlogTemplateProps)
                 prose-code:bg-muted prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm
                 prose-pre:bg-muted prose-pre:rounded-xl
                 prose-img:rounded-xl prose-img:shadow-md"
-              dangerouslySetInnerHTML={{ __html: sanitizeExcerpt(post.content || "") }}
+              dangerouslySetInnerHTML={{
+                __html: sanitizeExcerpt(post.content || ""),
+              }}
             />
 
             {/* Sticky Sidebar */}
             <aside className="w-full lg:w-60 xl:w-72 shrink-0 lg:sticky lg:top-24 space-y-6">
-
               {/* Author card */}
               <div className="rounded-xl border border-border bg-card p-5">
-                <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3">Written by</p>
+                <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-3">
+                  Written by
+                </p>
                 <div className="flex items-center gap-3">
                   {authorAvatar ? (
                     <Image
@@ -157,8 +173,12 @@ export default function BlogTemplate({ post, relatedPosts }: IBlogTemplateProps)
                     </div>
                   )}
                   <div>
-                    <p className="font-semibold text-sm text-foreground">{authorName}</p>
-                    <p className="text-xs text-muted-foreground">Xponent Team</p>
+                    <p className="font-semibold text-sm text-foreground">
+                      {authorName}
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                      Xponent Team
+                    </p>
                   </div>
                 </div>
               </div>
@@ -184,8 +204,12 @@ export default function BlogTemplate({ post, relatedPosts }: IBlogTemplateProps)
 
               {/* CTA card */}
               <div className="rounded-xl bg-primary p-5 text-white">
-                <p className="font-bold text-sm mb-1.5">Have a project in mind?</p>
-                <p className="text-xs text-white/75 mb-4">Let&apos;s talk about how we can help you build it.</p>
+                <p className="font-bold text-sm mb-1.5">
+                  Have a project in mind?
+                </p>
+                <p className="text-xs text-white/75 mb-4">
+                  Let&apos;s talk about how we can help you build it.
+                </p>
                 <Link
                   href="/contact"
                   className="inline-flex items-center gap-1.5 bg-white text-primary px-4 py-2 rounded-lg text-xs font-bold hover:bg-white/90 transition-colors"
@@ -193,7 +217,6 @@ export default function BlogTemplate({ post, relatedPosts }: IBlogTemplateProps)
                   Get in touch <ArrowRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-
             </aside>
           </div>
         </div>
@@ -202,7 +225,9 @@ export default function BlogTemplate({ post, relatedPosts }: IBlogTemplateProps)
         {relatedPosts && relatedPosts.length > 0 && (
           <section className="py-16 px-6 lg:px-8 border-t border-border bg-muted">
             <div className="max-w-5xl mx-auto">
-              <h2 className="text-2xl font-bold text-foreground mb-8">Related Articles</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-8">
+                Related Articles
+              </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {relatedPosts.slice(0, 3).map(({ node: rp }) => {
                   const rpCategory = getPrimaryCategory(rp);
@@ -240,7 +265,9 @@ export default function BlogTemplate({ post, relatedPosts }: IBlogTemplateProps)
                           </p>
                         </Link>
                         <div className="flex items-center justify-between text-xs text-muted-foreground">
-                          <span>{rp.date ? formatDate(rp.date, "MMM d, yyyy") : ""}</span>
+                          <span>
+                            {rp.date ? formatDate(rp.date, "MMM d, yyyy") : ""}
+                          </span>
                           <span>{estimateReadTime(rp.content)}</span>
                         </div>
                       </div>
@@ -270,7 +297,6 @@ export default function BlogTemplate({ post, relatedPosts }: IBlogTemplateProps)
             </Link>
           </div>
         </section>
-
       </div>
     </>
   );
