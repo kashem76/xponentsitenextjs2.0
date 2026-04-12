@@ -8,6 +8,7 @@ import {
   DollarSign,
   Shield,
   Calendar,
+  HandCoins,
 } from "lucide-react";
 import { ICareer } from "@/lib/types/careers.types";
 import Link from "next/link";
@@ -58,7 +59,7 @@ export default function CareerDetailHero({ career }: CareerDetailHeroProps) {
           </div>
           {career.salary && (
             <div className="flex items-center gap-2">
-              <DollarSign className="h-5 w-5" />
+              <HandCoins className="h-5 w-5" />
               <span className="font-medium">{career.salary}</span>
             </div>
           )}
