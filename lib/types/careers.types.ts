@@ -17,12 +17,16 @@ export interface ICareer {
   experience: string;
   salary: string;
   isOpen: boolean;
+  urgent?: boolean;
   postedDate: string;
   overview: string;
+  callout?: string;
   responsibilities: string[];
   whatYouWillOwn?: string[];
   whatYouWillWorkOn?: string[];
   requirements: string[];
+  whoYouAre?: string[];
+  technicalEnvironment?: string[];
   niceToHave: string[];
   successMetrics: string[];
   whyJoin: string[];

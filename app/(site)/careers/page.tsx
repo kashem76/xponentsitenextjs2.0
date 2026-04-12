@@ -1,6 +1,5 @@
 // app/(site)/careers/page.tsx
 import CareersCtaSection from "@/components/careers/careers-cta-section";
-import CareersCultureSection from "@/components/careers/careers-culture-section";
 import CareersHeroSection from "@/components/careers/careers-hero-section";
 import CareersPerksSection from "@/components/careers/careers-perks-section";
 import CareersPositionsSection from "@/components/careers/careers-positions-section";
@@ -61,17 +60,14 @@ export default function CareersPage() {
       {/* Hero Section */}
       <CareersHeroSection />
 
-      {/* Culture Image Section */}
-      <CareersCultureSection />
+      {/* Open Positions */}
+      <CareersPositionsSection />
 
       {/* Values Section */}
       <CareersValuesSection />
 
       {/* Perks & Benefits */}
       <CareersPerksSection />
-
-      {/* Open Positions */}
-      <CareersPositionsSection />
 
       {/* CTA Section */}
       <CareersCtaSection />
