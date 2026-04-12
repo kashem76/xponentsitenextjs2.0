@@ -1,6 +1,77 @@
 {
   "careers": [
     {
+      "id": "technical-project-team-lead",
+      "title": "Technical Project & Team Lead",
+      "department": "Engineering",
+      "location": "On-Site | Chattogram",
+      "type": "Full-Time",
+      "experience": "4-5 years",
+      "salary": "To be decided during interview",
+      "isOpen": true,
+      "urgent": true,
+      "postedDate": "2026-04-12",
+      "overview": "Xponent, established in 2003 and operating from Chattogram, Bangladesh, builds custom software, AI-powered products, and SaaS platforms — including our own products in the digital marketing space. We are a growing technology company with a strong focus on product quality, engineering excellence, and long-term client success.\n\nAs we grow, we need someone to own the space between the founder and the development team. This is not a coding role. This is a leadership and delivery role. You will manage projects, lead developers, and ensure that what gets built is the right thing — delivered on time, with quality, and with clear communication throughout.",
+      "callout": "This role is not for someone looking for a short-term contract or a stepping stone. We are building a team for the long term. We are looking for someone who wants to grow here — into senior leadership — and build a career, not just fill a seat. If you are serious about that kind of trajectory, we want to hear from you.",
+      "responsibilities": [
+        "Take full ownership of project delivery — from kickoff to production",
+        "Keep a team of 3–5 developers organised, focused, and accountable",
+        "Communicate clearly between the founder and the dev team",
+        "Translate business needs into technical direction and vice versa",
+        "Spot problems early — timeline risks, blockers, misalignment — and act before they escalate",
+        "Run projects with structure and discipline without creating unnecessary process",
+        "Hold the team to quality and reliability standards — not just deadlines",
+        "Work with sincerity, diligence, and full professional accountability"
+      ],
+      "whatYouWillOwn": [
+        "Day to day management of development teams across active projects",
+        "Project timelines, milestones, and delivery accountability",
+        "Communication between founder and development team",
+        "GitHub Projects for task tracking and progress visibility",
+        "Identifying and resolving blockers before they impact delivery",
+        "Ensuring quality and reliability standards before release",
+        "Running team check-ins and keeping everyone aligned"
+      ],
+      "requirements": [
+        "4–5 years in a technical project management or team lead role",
+        "Strong enough technical background to communicate with developers",
+        "Experience managing small development teams of 3–5 people",
+        "Strong team leadership and people management skills",
+        "Excellent organisational, analytical, and communication skills",
+        "Ability to troubleshoot and resolve technical and team challenges efficiently",
+        "Comfortable working directly with a founder in a fast-moving environment",
+        "Based in Chattogram or willing to relocate",
+        "Bachelor's degree in Computer Science, Information Technology, or a related field preferred"
+      ],
+      "technicalEnvironment": [
+        "Language: JavaScript / TypeScript",
+        "Frameworks: Next.js, Remix",
+        "Backend: Node.js, Express.js",
+        "Databases: PostgreSQL, MySQL, MongoDB",
+        "Infrastructure: Docker, Git, CI/CD",
+        "Project Tracking: GitHub Projects"
+      ],
+      "niceToHave": [
+        "Experience in a product-focused or agency environment",
+        "Familiarity with agile or kanban delivery methodologies",
+        "Prior experience in a founder-led or fast-moving startup"
+      ],
+      "successMetrics": [
+        "Projects delivered on time and within scope",
+        "Team stays focused, aligned, and unblocked",
+        "Founder has full visibility into project status at all times",
+        "Quality and reliability standards met before every release",
+        "Escalations handled early — problems don't reach the founder as surprises"
+      ],
+      "whyJoin": [
+        "Own the bridge between leadership and the development team",
+        "Work directly with the founder in a high-trust, high-impact role",
+        "Build and lead a team for the long term",
+        "Grow into senior leadership in a fast-moving technology company",
+        "On-site environment with a serious, committed team"
+      ]
+    },
+    {
       "id": "head-of-marketing-growth",
       "title": "Head of Marketing & Growth",
       "department": "Marketing",
@@ -339,6 +410,78 @@
         "Opportunity to grow into technical leadership or CTO role",
         "Learn AI, automation, and modern technology stacks",
         "Work with clients directly on meaningful business problems"
+      ]
+    },
+    {
+      "id": "full-stack-javascript-developer",
+      "title": "Full Stack JavaScript Developer",
+      "department": "Engineering",
+      "location": "On-Site",
+      "type": "Full-time",
+      "experience": "2-4 years",
+      "salary": "Competitive — discussed during interview",
+      "isOpen": true,
+      "urgent": true,
+      "postedDate": "2026-04-07",
+      "overview": "Xponent builds custom software, AI-powered products, and SaaS platforms — including our own products in the digital marketing space. If you are a developer who wants to work on real SaaS products with real users, alongside client projects across different industries, this is that kind of role.\n\nWe are looking for a Full Stack JavaScript Developer who operates beyond the traditional coding role — someone who leads delivery, not just executes it.\n\nAI now handles the bulk of code generation. Your role is to use that capability fully and responsibly — as a builder, a manager, and an owner. As a builder, you direct AI tools to design and develop full-stack features. As a manager, you own the quality of that output — reviewing, testing, debugging, and integrating until it meets production standards. As an owner, you take full responsibility for what ships: its reliability, its correctness, and how it fits within the broader system.\n\nThis means your time is spent less on writing individual lines of code and more on understanding what needs to be built, making sound decisions, driving delivery forward, and communicating clearly with the team.",
+      "callout": "This role is not for someone looking for a short-term contract or a stepping stone. We are building a team for the long term. We are looking for someone who wants to grow here — into senior and eventually leadership positions — and build a career, not just fill a seat. If you are serious about that kind of trajectory, we want to hear from you.",
+      "responsibilities": [
+        "Take features from requirement to production with full ownership",
+        "Use AI coding tools (Cursor, Claude, Copilot, etc.) to build full-stack features across Next.js and Node.js",
+        "Review, test, and iterate on AI-generated code until it meets production standards",
+        "Debug issues across the stack — whether in AI output, your own work, or existing systems",
+        "Understand the requirements before building — ask questions, clarify scope, flag concerns early",
+        "Maintain and improve existing client products and internal systems",
+        "Communicate progress, blockers, and decisions clearly and proactively with the team",
+        "Participate in technical discussions and contribute to solution decisions"
+      ],
+      "whatYouWillOwn": [
+        "End-to-end delivery of features on live client products",
+        "Production reliability and correctness of what you ship",
+        "Code quality and integration within your areas of the codebase",
+        "Technical decisions within your features — approach, trade-offs, and execution"
+      ],
+      "requirements": [
+        "2–4 years of hands-on experience building real full-stack JavaScript products",
+        "Strong proficiency in JavaScript and TypeScript",
+        "Experience with Next.js — this is our primary frontend framework",
+        "Backend experience with Node.js and Express.js",
+        "Database experience with PostgreSQL, MySQL, or MongoDB",
+        "Comfortable with Git, Docker, and basic CI/CD workflows",
+        "Hands-on experience with AI coding tools (Cursor, GitHub Copilot, Claude, or similar)",
+        "Strong debugging skills — you can track down and fix problems independently",
+        "Reliable and consistent — you follow through on what you commit to",
+        "Communicates openly and directly — no guessing games on status or blockers"
+      ],
+      "whoYouAre": [
+        "Sincere — you mean what you say and say what you mean, no performance",
+        "Committed — when you take something on, you see it through without being chased",
+        "Punctual and dependable — the team can count on you to show up and follow through",
+        "Serious about your work — you care about the quality of what you put your name on",
+        "A team player — you share context, support others, and don't work in isolation",
+        "A critical thinker — you question assumptions, spot problems early, and think before acting",
+        "Professional — you handle feedback well, communicate with respect, and stay composed under pressure",
+        "Honest — if something is blocked, unclear, or going wrong, you say so immediately"
+      ],
+      "niceToHave": [
+        "Experience in a product-focused or agency development environment",
+        "Exposure to multiple database technologies",
+        "Experience working on live production systems with real users",
+        "Familiarity with prompt engineering for development workflows"
+      ],
+      "successMetrics": [
+        "Features shipped on time and without recurring post-ship issues",
+        "Low bug rate and minimal production incidents from your work",
+        "Code that fits cleanly into the existing system without creating new problems",
+        "The team always knows where your work stands",
+        "Growing scope and trust over time"
+      ],
+      "whyJoin": [
+        "Real ownership over what you build — not just executing tickets",
+        "On-site team environment with direct collaboration",
+        "Work on diverse software and AI-powered products across industries",
+        "Stable, long-term full-time role with room to grow",
+        "Team that values reliability and commitment over politics"
       ]
     }
   ]

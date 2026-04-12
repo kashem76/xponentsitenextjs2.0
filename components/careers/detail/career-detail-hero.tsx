@@ -27,10 +27,15 @@ export default function CareerDetailHero({ career }: CareerDetailHeroProps) {
       </div>
 
       <div className="max-w-5xl mx-auto relative z-10">
-        <div className="mb-6">
+        <div className="mb-6 flex items-center gap-3 flex-wrap">
           <span className="inline-block px-4 py-1.5 bg-accent text-accent-foreground rounded-full text-sm font-semibold uppercase tracking-wide">
             {career.department}
           </span>
+          {career.urgent && (
+            <span className="inline-block px-4 py-1.5 bg-red-500 text-white rounded-full text-sm font-bold uppercase tracking-wide animate-pulse">
+              Urgent Hiring
+            </span>
+          )}
         </div>
 
         <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight mb-6 leading-tight text-primary-foreground">

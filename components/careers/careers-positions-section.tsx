@@ -8,8 +8,14 @@ import { ICareer } from "@/lib/types/careers.types";
 export default function CareersPositionsSection() {
   const { careers } = careersData as { careers: ICareer[] };
 
-  // Filter only open positions
-  const openPositions = careers.filter((career) => career.isOpen);
+  // Filter only open positions, sort urgent first then by newest postedDate
+  const openPositions = careers
+    .filter((career) => career.isOpen)
+    .sort((a, b) => {
+      if (a.urgent && !b.urgent) return -1;
+      if (!a.urgent && b.urgent) return 1;
+      return new Date(b.postedDate).getTime() - new Date(a.postedDate).getTime();
+    });
 
   return (
     <section
@@ -36,13 +42,18 @@ export default function CareersPositionsSection() {
             >
               <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
                 <div className="flex-1">
-                  <div className="flex items-center gap-3 mb-3">
+                  <div className="flex items-center gap-3 mb-3 flex-wrap">
                     <h3 className="text-2xl font-bold group-hover:text-primary transition-colors">
                       {career.title}
                     </h3>
                     <span className="px-3 py-1 bg-accent/10 text-accent text-sm font-semibold rounded-full">
                       {career.department}
                     </span>
+                    {career.urgent && (
+                      <span className="px-3 py-1 bg-red-500 text-white text-sm font-bold rounded-full uppercase tracking-wide animate-pulse">
+                        Urgent
+                      </span>
+                    )}
                   </div>
 
                   <p className="text-muted-foreground mb-4 leading-relaxed max-w-3xl">

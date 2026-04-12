@@ -10,6 +10,7 @@ import CareerDetailResponsibilities from "@/components/careers/detail/career-det
 import CareerDetailRequirements from "@/components/careers/detail/career-detail-requirements";
 import CareerDetailMetrics from "@/components/careers/detail/career-detail-metrics";
 import CareerDetailWhyJoin from "@/components/careers/detail/career-detail-why-join";
+import CareerDetailCallout from "@/components/careers/detail/career-detail-callout";
 import { Metadata } from "next";
 
 interface PageProps {
@@ -119,6 +120,9 @@ export default async function CareerDetailPage({ params }: PageProps) {
       {/* Overview Section */}
       <CareerDetailOverview overview={career.overview} />
 
+      {/* Callout */}
+      {career.callout && <CareerDetailCallout text={career.callout} />}
+
       {/* What You Will Own / Work On */}
       {ownershipItems && ownershipItems.length > 0 && (
         <CareerDetailOwnership items={ownershipItems} title={ownershipTitle} />
@@ -131,10 +135,12 @@ export default async function CareerDetailPage({ params }: PageProps) {
         />
       )}
 
-      {/* Requirements & Nice to Have */}
+      {/* Requirements, Nice to Have & Who You Are */}
       <CareerDetailRequirements
         requirements={career.requirements}
         niceToHave={career.niceToHave}
+        whoYouAre={career.whoYouAre}
+        technicalEnvironment={career.technicalEnvironment}
       />
 
       {/* Success Metrics */}
