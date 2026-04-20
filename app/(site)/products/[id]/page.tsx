@@ -30,9 +30,8 @@ export async function generateMetadata({
     };
   }
 
-  const description =
-    product.shortDescription ||
-    `${product.name} - ${product.tagline}. Innovative software solution by Xponent InfoSystem.`;
+  const fullDescription = `${product.shortDescription} ${product.hero.subheadline}`;
+  const description = fullDescription.substring(0, 160);
 
   // Generate dynamic keywords based on product features and use cases
   const featureKeywords = product.keyFeatures.map((f) => f.title.toLowerCase());
@@ -41,25 +40,26 @@ export async function generateMetadata({
   const keywords = [
     product.name,
     `${product.name} software`,
+    `${product.name} Bangladesh`,
+    `${product.name} system`,
     product.tagline,
     ...featureKeywords,
     ...useCaseKeywords,
     "Xponent InfoSystem",
-    "business management software",
-    "enterprise solution",
-    "SaaS application",
-    "digital transformation",
-    "business automation",
+    "business management software Bangladesh",
+    "enterprise software solution",
+    "SaaS application Bangladesh",
+    "business automation software",
     "cloud software Bangladesh",
   ];
 
   return {
     title: `${product.name} | ${product.tagline} | Xponent InfoSystem`,
-    description: description.substring(0, 160),
+    description,
     keywords,
     openGraph: {
       title: `${product.name} | Xponent InfoSystem`,
-      description: `${product.tagline} - ${product.shortDescription}`,
+      description: `${product.tagline} — ${product.shortDescription}`,
       url: `https://www.xponent.com.bd/products/${id}`,
       type: "website",
       locale: "en_US",

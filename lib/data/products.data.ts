@@ -4,15 +4,15 @@ export const productsData: IProductsData = {
   products: [
     {
       id: "accounting-erp",
-      name: "Accounting ERP",
-      tagline: "Complete financial management for growing businesses",
+      name: "Accounting ERP Software",
+      tagline: "Cloud accounting & ERP software for growing businesses",
       shortDescription:
-        "Streamline accounting, automate workflows, and gain real-time financial insights.",
+        "Streamline your accounting operations with our cloud-based accounting ERP software. Automate bookkeeping, manage inventory, and get real-time financial insights — all from one platform.",
       icon: "Calculator",
       hero: {
-        headline: "Modern Accounting & ERP System",
+        headline: "Accounting ERP Software for Bangladesh Businesses",
         subheadline:
-          "Manage finances, inventory, sales, and operations from one integrated platform. Built for businesses that need reliable financial data and operational control.",
+          "Our accounting software manages finances, inventory, sales, and operations from one integrated ERP platform. The complete accounting solution for businesses that need reliable financial data and total operational control.",
         image: "accounting-workspace",
         primaryCTA: "Schedule a Demo",
         primaryCTAHref: "/products",
@@ -24,69 +24,69 @@ export const productsData: IProductsData = {
           icon: "BarChart3",
           title: "Real-Time Financial Reporting",
           description:
-            "Generate profit & loss statements, balance sheets, and cash flow reports instantly with live data.",
+            "Generate profit & loss statements, balance sheets, and cash flow reports instantly with live accounting data — no waiting for month-end closes.",
         },
         {
           icon: "Database",
           title: "Automated Bookkeeping",
           description:
-            "Automatically categorize transactions, reconcile accounts, and maintain accurate books without manual data entry.",
+            "Our accounting ERP automatically categorizes transactions, reconciles accounts, and maintains accurate books without manual data entry.",
         },
         {
           icon: "Users",
           title: "Multi-User Access Control",
           description:
-            "Define roles and permissions for accountants, managers, and staff with secure, granular access controls.",
+            "Define roles and permissions for accountants, managers, and staff with secure, granular access controls built into the ERP system.",
         },
         {
           icon: "TrendingUp",
           title: "Inventory & Sales Integration",
           description:
-            "Track inventory levels, manage purchase orders, and connect sales data directly to your financial records.",
+            "Track inventory levels, manage purchase orders, and connect sales data directly to your financial records inside the same accounting software.",
         },
       ],
       benefits: [
-        "Reduce manual data entry by 80% with automated workflows",
-        "Get real-time visibility into business financial health",
-        "Ensure compliance with built-in tax calculations and reporting",
-        "Scale from small business to enterprise without changing systems",
+        "Reduce manual accounting data entry by 80% with automated ERP workflows",
+        "Get real-time visibility into your business financial health with live dashboards",
+        "Ensure tax compliance with built-in Bangladesh tax calculations and reporting",
+        "Scale your accounting software from small business to enterprise — no system change needed",
       ],
       useCases: [
         {
           industry: "Manufacturing",
           description:
-            "Track production costs, manage inventory, and monitor profitability by product line.",
+            "Use our accounting ERP software to track production costs, manage inventory, and monitor profitability by product line with precision.",
         },
         {
           industry: "Retail & E-commerce",
           description:
-            "Integrate online and offline sales channels with unified financial reporting.",
+            "Integrate online and offline sales channels with unified financial reporting through our accounting software.",
         },
         {
           industry: "Professional Services",
           description:
-            "Manage project budgets, track billable hours, and automate client invoicing.",
+            "Manage project budgets, track billable hours, and automate client invoicing — all within the same accounting ERP system.",
         },
       ],
       technicalHighlights: [
-        "Cloud-based with offline capability",
-        "API integrations with banks and payment processors",
-        "Customizable dashboards and reports",
-        "Multi-currency and multi-language support",
-        "Automated backups and data encryption",
+        "Cloud-based accounting ERP with offline capability",
+        "API integrations with Bangladesh banks and payment processors",
+        "Customizable accounting dashboards and financial reports",
+        "Multi-currency and multi-language ERP support",
+        "Automated backups and bank-grade data encryption",
       ],
     },
     {
       id: "gym-management",
-      name: "Gym Management System",
-      tagline: "Complete fitness center operations platform",
+      name: "Gym Management Software",
+      tagline: "Complete gym management software for fitness centers & studios",
       shortDescription:
-        "Manage memberships, schedules, billing, and member engagement from one system.",
+        "Run your fitness business with our gym management software. Automate member management, class scheduling, billing, and member engagement — built for gyms and fitness centers in Bangladesh.",
       icon: "Dumbbell",
       hero: {
-        headline: "All-in-One Gym Management Platform",
+        headline: "Gym Management Software for Fitness Centers",
         subheadline:
-          "Run your fitness business more efficiently with automated member management, class scheduling, billing, and engagement tools built specifically for gyms and fitness centers.",
+          "Our gym management system helps you run your fitness business more efficiently with automated member management, class scheduling, billing, and engagement tools built specifically for gyms, fitness centers, and studios.",
         image: "gym-equipment",
         primaryCTA: "Book a Demo",
         primaryCTAHref: "/products",
@@ -98,69 +98,69 @@ export const productsData: IProductsData = {
           icon: "Users",
           title: "Member Management",
           description:
-            "Track memberships, attendance, payments, and member profiles with complete history and analytics.",
+            "Track gym memberships, attendance, payments, and member profiles with complete history and analytics inside our gym management software.",
         },
         {
           icon: "Calendar",
           title: "Class & Trainer Scheduling",
           description:
-            "Manage class schedules, trainer availability, room bookings, and member reservations automatically.",
+            "Manage class schedules, trainer availability, room bookings, and member reservations automatically with our gym management system.",
         },
         {
           icon: "CreditCard",
           title: "Automated Billing & Payments",
           description:
-            "Process recurring membership fees, track payments, send reminders, and handle refunds seamlessly.",
+            "Process recurring membership fees, track payments, send reminders, and handle refunds seamlessly — no more missed payments at your fitness center.",
         },
         {
           icon: "MessageSquare",
           title: "Member Engagement Tools",
           description:
-            "Send automated notifications, workout reminders, promotional offers, and announcements to keep members engaged.",
+            "Send automated notifications, workout reminders, promotional offers, and announcements to keep gym members engaged and reduce churn.",
         },
       ],
       benefits: [
-        "Reduce administrative time by 60% with automation",
-        "Increase member retention with engagement tools",
-        "Eliminate billing errors and missed payments",
-        "Access business metrics and member analytics in real-time",
+        "Reduce gym administration time by 60% with our management software automation",
+        "Increase member retention at your fitness center with built-in engagement tools",
+        "Eliminate billing errors and missed membership payments",
+        "Access gym business metrics and member analytics in real-time",
       ],
       useCases: [
         {
           industry: "Fitness Centers",
           description:
-            "Manage large facilities with multiple trainers, classes, and membership tiers.",
+            "Use our gym management software to manage large facilities with multiple trainers, classes, and membership tiers from one system.",
         },
         {
           industry: "Yoga & Pilates Studios",
           description:
-            "Handle small group classes, private sessions, and flexible membership packages.",
+            "Handle small group classes, private sessions, and flexible membership packages with our studio management software.",
         },
         {
           industry: "CrossFit Boxes",
           description:
-            "Track WOD performance, manage unlimited memberships, and build community engagement.",
+            "Track WOD performance, manage unlimited memberships, and build community engagement with our CrossFit gym management system.",
         },
       ],
       technicalHighlights: [
-        "Mobile app for members and staff",
-        "Biometric access integration",
-        "Payment gateway integration (Stripe, Square, etc.)",
-        "Customizable membership plans and pricing",
-        "Real-time reporting and analytics dashboard",
+        "Mobile app for gym members and staff",
+        "Biometric access integration for fitness centers",
+        "Payment gateway integration (Stripe, Square, bKash, etc.)",
+        "Customizable membership plans and pricing tiers",
+        "Real-time gym reporting and analytics dashboard",
       ],
     },
     {
       id: "hotel-management",
-      name: "Hotel Management System",
-      tagline: "Streamline hospitality operations end-to-end",
+      name: "Hotel Management Software",
+      tagline: "Complete hotel management software for hospitality businesses",
       shortDescription:
-        "Manage reservations, guest services, housekeeping, and revenue from a unified platform.",
+        "Manage your hotel with our hotel management software. Handle reservations, guest services, housekeeping, and revenue from one unified platform — built for hotels and hospitality businesses in Bangladesh.",
       icon: "Hotel",
       hero: {
-        headline: "Complete Hotel Operations Platform",
+        headline: "Hotel Management Software & PMS Solution",
         subheadline:
-          "Handle reservations, check-ins, housekeeping, billing, and guest services from one centralized system. Built for hotels, resorts, and hospitality businesses.",
+          "Our hotel management system handles reservations, check-ins, housekeeping, billing, and guest services from one centralized platform. The complete property management software for hotels, resorts, and hospitality businesses in Bangladesh.",
         image: "hotel-lobby",
         primaryCTA: "Request Demo",
         primaryCTAHref: "/products",
@@ -172,69 +172,69 @@ export const productsData: IProductsData = {
           icon: "Calendar",
           title: "Reservation & Booking Management",
           description:
-            "Manage room availability, reservations, online bookings, and channel manager integrations in real-time.",
+            "Manage room availability, reservations, online bookings, and OTA channel manager integrations in real-time with our hotel management software.",
         },
         {
           icon: "Home",
           title: "Housekeeping & Maintenance",
           description:
-            "Coordinate room cleaning, maintenance requests, and staff assignments with automated workflows.",
+            "Coordinate room cleaning, maintenance requests, and staff assignments with automated workflows inside our hotel management system.",
         },
         {
           icon: "CreditCard",
           title: "Billing & Point of Sale",
           description:
-            "Handle guest billing, restaurant charges, room service, and checkout with integrated POS system.",
+            "Handle guest billing, restaurant charges, room service, and checkout with the integrated POS system built into our hotel software.",
         },
         {
           icon: "Users",
           title: "Guest Profile Management",
           description:
-            "Store guest preferences, history, and loyalty program data to deliver personalized service.",
+            "Store guest preferences, stay history, and loyalty program data to deliver personalized hospitality at every visit.",
         },
       ],
       benefits: [
-        "Increase booking efficiency and reduce double-bookings",
-        "Improve guest satisfaction with faster service",
-        "Optimize housekeeping and maintenance operations",
-        "Maximize revenue with dynamic pricing insights",
+        "Increase booking efficiency and eliminate double-bookings with our hotel management system",
+        "Improve guest satisfaction scores with faster, more personalized hotel service",
+        "Optimize housekeeping and maintenance operations across your property",
+        "Maximize hotel revenue with dynamic pricing insights and occupancy analytics",
       ],
       useCases: [
         {
           industry: "Boutique Hotels",
           description:
-            "Deliver personalized guest experiences while managing operations efficiently with small teams.",
+            "Deliver personalized guest experiences while managing your hotel operations efficiently with small teams using our hotel software.",
         },
         {
           industry: "Resorts & Spa",
           description:
-            "Coordinate rooms, activities, spa bookings, and dining reservations from one platform.",
+            "Coordinate rooms, activities, spa bookings, and dining reservations from one hotel management platform.",
         },
         {
           industry: "Budget Accommodations",
           description:
-            "Maximize occupancy and minimize operational costs with automated workflows.",
+            "Maximize occupancy and minimize operational costs with our automated hotel management software for budget properties.",
         },
       ],
       technicalHighlights: [
         "Channel manager integrations (Booking.com, Expedia, Airbnb)",
-        "Mobile app for staff operations",
-        "Dynamic pricing and revenue management",
-        "Multi-property management support",
-        "Guest portal and self-service kiosks",
+        "Mobile app for hotel staff operations",
+        "Dynamic pricing and hotel revenue management tools",
+        "Multi-property hotel management support",
+        "Guest self-service portal and kiosk integration",
       ],
     },
     {
       id: "garden-management",
-      name: "Garden Management System",
-      tagline: "Digital platform for landscape and garden operations",
+      name: "Garden Management Software",
+      tagline: "Professional landscaping & garden management software",
       shortDescription:
-        "Manage projects, clients, plant inventory, and maintenance schedules efficiently.",
+        "Manage your landscaping business with our garden management software. Organize projects, clients, plant inventory, crew scheduling, and invoicing from one easy-to-use platform.",
       icon: "Leaf",
       hero: {
-        headline: "Professional Garden & Landscape Management",
+        headline: "Garden & Landscaping Management Software",
         subheadline:
-          "Organize client projects, track plant inventory, schedule maintenance, and manage crews with a platform built for landscaping and garden management businesses.",
+          "Our landscaping software helps you organize client projects, track plant inventory, schedule maintenance, and manage field crews with a platform purpose-built for landscaping companies and garden management businesses.",
         image: "garden-landscape",
         primaryCTA: "See Demo",
         primaryCTAHref: "/products",
@@ -246,56 +246,56 @@ export const productsData: IProductsData = {
           icon: "Calendar",
           title: "Project & Maintenance Scheduling",
           description:
-            "Schedule installations, routine maintenance, seasonal work, and crew assignments with visual calendars.",
+            "Schedule landscape installations, routine maintenance, seasonal work, and crew assignments with visual calendars inside our garden management software.",
         },
         {
           icon: "Database",
           title: "Plant & Inventory Management",
           description:
-            "Track plant inventory, supplier orders, materials, equipment, and stock levels across projects.",
+            "Track plant inventory, supplier orders, materials, equipment, and stock levels across all landscaping projects in one system.",
         },
         {
           icon: "Users",
           title: "Client & Site Management",
           description:
-            "Store client information, site details, photos, notes, and service history in organized profiles.",
+            "Store client information, site details, photos, notes, and service history in organized profiles for every landscaping account.",
         },
         {
           icon: "FileText",
           title: "Estimates & Invoicing",
           description:
-            "Create professional estimates, track approved projects, and generate invoices automatically based on completed work.",
+            "Create professional landscaping estimates, track approved projects, and generate invoices automatically based on completed garden work.",
         },
       ],
       benefits: [
-        "Reduce scheduling conflicts and improve crew utilization",
-        "Never lose track of plant inventory or materials",
-        "Deliver consistent service with maintenance reminders",
-        "Grow your business with professional client management",
+        "Reduce scheduling conflicts and improve crew utilization across landscaping jobs",
+        "Never lose track of plant inventory or landscaping materials again",
+        "Deliver consistent garden maintenance service with automated reminders",
+        "Grow your landscaping business with professional client and project management",
       ],
       useCases: [
         {
           industry: "Landscaping Companies",
           description:
-            "Manage multiple crews, projects, and clients with streamlined operations and scheduling.",
+            "Manage multiple crews, landscaping projects, and clients with streamlined operations using our garden management software.",
         },
         {
           industry: "Garden Centers",
           description:
-            "Track inventory, manage customer orders, and coordinate delivery and installation services.",
+            "Track plant inventory, manage customer orders, and coordinate delivery and garden installation services.",
         },
         {
           industry: "Property Management",
           description:
-            "Maintain multiple properties with scheduled landscaping, inspections, and seasonal care.",
+            "Maintain multiple properties with our landscaping software — scheduled garden maintenance, inspections, and seasonal care made simple.",
         },
       ],
       technicalHighlights: [
-        "Mobile app for field crews",
-        "Photo documentation and before/after galleries",
-        "Weather integration for scheduling",
+        "Mobile app for landscaping field crews",
+        "Photo documentation and before/after project galleries",
+        "Weather integration for smarter garden scheduling",
         "GPS tracking and routing for crew efficiency",
-        "Client portal for service requests and updates",
+        "Client portal for garden service requests and updates",
       ],
     },
   ],

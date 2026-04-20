@@ -2,10 +2,12 @@ import { CheckCircle } from "lucide-react";
 
 interface IProductTechnicalSectionProps {
   highlights: string[];
+  productName: string;
 }
 
 export default function ProductTechnicalSection({
   highlights,
+  productName,
 }: IProductTechnicalSectionProps) {
   if (!highlights || highlights.length === 0) return null;
 
@@ -14,11 +16,11 @@ export default function ProductTechnicalSection({
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 leading-tight">
-            Technical Highlights
+            {productName} Technical Specifications
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Built with modern technology for reliability, security, and
-            scalability.
+            Our {productName} is built with modern cloud technology for
+            reliability, security, and scalability.
           </p>
         </div>
 
