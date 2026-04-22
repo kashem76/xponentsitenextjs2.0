@@ -298,5 +298,281 @@ export const productsData: IProductsData = {
         "Client portal for garden service requests and updates",
       ],
     },
+    {
+      id: "oikikbooks",
+      name: "OikikBooks",
+      tagline:
+        "Cloud accounting software with double-entry bookkeeping & real-time financial reporting",
+      shortDescription:
+        "OikikBooks is a standalone cloud accounting software built for small and mid-sized businesses. Manage your chart of accounts, journal entries, bank reconciliation, invoicing, and financial reports — all with real-time double-entry bookkeeping from one intuitive platform.",
+      icon: "BookOpen",
+      hero: {
+        headline:
+          "OikikBooks — Cloud Accounting Software for Growing Businesses",
+        subheadline:
+          "OikikBooks gives you complete financial control with double-entry bookkeeping, automated journal entries, bank reconciliation, invoicing, and real-time financial reports. From trial balance to cash flow statements — everything your business needs to manage money with confidence.",
+        image: "oikikbooks-accounting",
+        primaryCTA: "Start Free Trial",
+        primaryCTAHref: "/contact",
+        secondaryCTA: "View Features",
+        secondaryCTAHref: "#product-features",
+      },
+      keyFeatures: [
+        {
+          icon: "BookOpen",
+          title: "Double-Entry Bookkeeping Engine",
+          description:
+            "OikikBooks enforces strict double-entry accounting with perfect debit-credit balance on every transaction. Manual journal entries, recurring templates, and voucher-based posting keep your general ledger accurate and audit-ready.",
+        },
+        {
+          icon: "BarChart3",
+          title: "Real-Time Financial Reports",
+          description:
+            "Generate trial balance, balance sheet, profit & loss, cash flow statements, and general ledger reports instantly — computed live from your posted transactions with zero lag or batch delays.",
+        },
+        {
+          icon: "Landmark",
+          title: "Bank Reconciliation",
+          description:
+            "Import bank statements, auto-match transactions, track outstanding items, and reconcile accounts with configurable tolerance. OikikBooks ensures your books and bank always agree.",
+        },
+        {
+          icon: "FileText",
+          title: "Invoicing & Accounts Receivable",
+          description:
+            "Create professional invoices, track payments, send automated reminders, and manage accounts receivable — all connected directly to your general ledger for seamless financial tracking.",
+        },
+        {
+          icon: "RefreshCw",
+          title: "Recurring Journal Templates",
+          description:
+            "Automate repetitive entries like rent accruals, depreciation, and salary provisions with configurable recurring templates that auto-generate journal entries on schedule.",
+        },
+        {
+          icon: "Shield",
+          title: "Immutable Audit Trail",
+          description:
+            "Every posted transaction in OikikBooks is immutable — corrections happen through reversing entries, not edits. Full user, timestamp, and source traceability on every journal line.",
+        },
+      ],
+      benefits: [
+        "Eliminate manual bookkeeping errors with enforced double-entry balance validation on every transaction",
+        "Get instant financial visibility with real-time trial balance, P&L, balance sheet, and cash flow reports",
+        "Reconcile bank accounts in minutes instead of hours with smart auto-matching and tolerance rules",
+        "Stay audit-ready with immutable posted entries, full audit trails, and reversing journal workflows",
+        "Automate recurring entries like depreciation, accruals, and rent — save hours every month",
+        "Scale from sole proprietor to multi-department business without changing your accounting system",
+      ],
+      useCases: [
+        {
+          industry: "Small & Mid-Sized Businesses",
+          description:
+            "OikikBooks replaces spreadsheets and manual bookkeeping with proper double-entry accounting, automated invoicing, and real-time financial reports — everything an SME needs to manage money professionally.",
+        },
+        {
+          industry: "Professional Services & Consultants",
+          description:
+            "Track project income, manage client invoices, monitor accounts receivable, and generate accurate profit & loss reports for each service line with OikikBooks.",
+        },
+        {
+          industry: "Retail & E-commerce",
+          description:
+            "Connect sales revenue to your general ledger, manage accounts payable for suppliers, reconcile payment processor deposits, and get real-time margin visibility with OikikBooks.",
+        },
+      ],
+      technicalHighlights: [
+        "Strict double-entry bookkeeping engine with atomic posting and row-level locking",
+        "Real-time financial report computation — no batch jobs or month-end closes required",
+        "Hierarchical chart of accounts with parent-child relationships and account type classification",
+        "Bank reconciliation with auto-matching, configurable tolerance, and outstanding item tracking",
+        "Multi-currency support with automatic exchange rate conversion",
+        "Role-based access control with granular permissions for accountants, managers, and staff",
+        "Cloud-hosted with automated backups, bank-grade encryption, and 99.9% uptime SLA",
+      ],
+    },
+    {
+      id: "oikikinventory",
+      name: "OikikInventory",
+      tagline:
+        "Cloud inventory management software for warehouses, retail & supply chains",
+      shortDescription:
+        "OikikInventory is a standalone cloud inventory management software that gives you real-time stock visibility, automated reorder points, warehouse management, and purchase order tracking — built for businesses that need total control over their supply chain.",
+      icon: "Package",
+      hero: {
+        headline:
+          "OikikInventory — Inventory Management Software for Modern Businesses",
+        subheadline:
+          "OikikInventory gives you real-time stock tracking, automated reorder alerts, multi-warehouse management, barcode scanning, and purchase order workflows. Stop losing money to stockouts, overstocking, and manual counting — take control of your inventory.",
+        image: "oikikinventory-warehouse",
+        primaryCTA: "Start Free Trial",
+        primaryCTAHref: "/contact",
+        secondaryCTA: "View Features",
+        secondaryCTAHref: "#product-features",
+      },
+      keyFeatures: [
+        {
+          icon: "Package",
+          title: "Real-Time Stock Tracking",
+          description:
+            "Track inventory levels across all warehouses and locations in real time. OikikInventory updates stock quantities instantly on every receipt, transfer, sale, and adjustment — no more guesswork.",
+        },
+        {
+          icon: "Bell",
+          title: "Automated Reorder Alerts",
+          description:
+            "Set minimum stock levels, safety stock thresholds, and reorder points for every item. OikikInventory sends automatic alerts and can generate draft purchase orders when stock runs low.",
+        },
+        {
+          icon: "Building",
+          title: "Multi-Warehouse Management",
+          description:
+            "Manage inventory across multiple warehouses, stores, and locations from one dashboard. Track inter-warehouse transfers, allocate stock by location, and optimize distribution.",
+        },
+        {
+          icon: "ScanBarcode",
+          title: "Barcode & SKU Management",
+          description:
+            "Generate and scan barcodes for fast receiving, picking, and stock counting. OikikInventory supports custom SKU schemes, batch tracking, and serial number management.",
+        },
+        {
+          icon: "ShoppingCart",
+          title: "Purchase Order Workflows",
+          description:
+            "Create purchase orders, track supplier deliveries, manage partial receipts, and match invoices to POs. Streamline your entire procurement process from requisition to receipt.",
+        },
+        {
+          icon: "TrendingUp",
+          title: "Inventory Analytics & Forecasting",
+          description:
+            "Analyze stock turnover, identify slow-moving items, forecast demand based on historical data, and optimize carrying costs with built-in inventory intelligence dashboards.",
+        },
+      ],
+      benefits: [
+        "Eliminate stockouts and lost sales with automated reorder points and real-time stock visibility",
+        "Reduce excess inventory and carrying costs with demand forecasting and turnover analytics",
+        "Save hours on stock counts with barcode scanning, batch tracking, and serial number management",
+        "Manage multiple warehouses and locations from one unified inventory dashboard",
+        "Streamline procurement with end-to-end purchase order workflows and supplier management",
+        "Connect inventory directly to accounting with OikikBooks integration for automatic COGS tracking",
+      ],
+      useCases: [
+        {
+          industry: "Wholesale & Distribution",
+          description:
+            "OikikInventory manages high-volume stock across warehouses with real-time tracking, automated reorders, batch management, and purchase order workflows built for distributors.",
+        },
+        {
+          industry: "Retail & E-commerce",
+          description:
+            "Sync inventory across physical stores and online channels, automate stock alerts, and track every unit from warehouse to customer with OikikInventory.",
+        },
+        {
+          industry: "Manufacturing",
+          description:
+            "Track raw materials, work-in-progress, and finished goods across production stages. Manage bills of materials, component stock levels, and production output with OikikInventory.",
+        },
+      ],
+      technicalHighlights: [
+        "Real-time stock engine with instant updates on every inventory movement",
+        "Multi-warehouse support with inter-location transfer tracking and allocation",
+        "Barcode generation and scanning with mobile device support",
+        "Batch tracking and serial number management for traceability",
+        "Automated reorder point engine with configurable safety stock thresholds",
+        "RESTful API for integration with e-commerce platforms, POS systems, and accounting software",
+        "Cloud-hosted with automated backups, role-based access, and 99.9% uptime SLA",
+      ],
+    },
+    {
+      id: "oikikhr",
+      name: "OikikHR",
+      tagline:
+        "Cloud HR management software for payroll, attendance & employee lifecycle",
+      shortDescription:
+        "OikikHR is a standalone cloud human resource management software that handles payroll processing, attendance tracking, leave management, employee onboarding, and performance reviews — everything you need to manage your workforce from one platform.",
+      icon: "UserCog",
+      hero: {
+        headline:
+          "OikikHR — Human Resource Management Software for Modern Teams",
+        subheadline:
+          "OikikHR streamlines your entire HR operation with automated payroll, attendance tracking, leave management, employee self-service, recruitment pipelines, and performance reviews. From hire to retire — manage your people with confidence.",
+        image: "oikikhr-office",
+        primaryCTA: "Start Free Trial",
+        primaryCTAHref: "/contact",
+        secondaryCTA: "View Features",
+        secondaryCTAHref: "#product-features",
+      },
+      keyFeatures: [
+        {
+          icon: "Banknote",
+          title: "Automated Payroll Processing",
+          description:
+            "Run payroll in minutes with automated salary calculations, tax deductions, overtime rules, and bank disbursements. OikikHR handles complex pay structures, bonuses, and compliance effortlessly.",
+        },
+        {
+          icon: "Clock",
+          title: "Attendance & Time Tracking",
+          description:
+            "Track employee attendance with biometric integration, mobile check-in, GPS-based tracking, and shift scheduling. OikikHR automatically feeds attendance data into payroll calculations.",
+        },
+        {
+          icon: "CalendarDays",
+          title: "Leave Management System",
+          description:
+            "Configure leave policies, accrual rules, and approval workflows. Employees request leave through self-service, managers approve with one click, and balances update automatically.",
+        },
+        {
+          icon: "UserPlus",
+          title: "Recruitment & Onboarding",
+          description:
+            "Post job openings, track applicants through hiring stages, send offer letters, and onboard new employees with automated checklists, document collection, and training assignments.",
+        },
+        {
+          icon: "Target",
+          title: "Performance Management",
+          description:
+            "Set goals, conduct 360-degree reviews, track KPIs, and manage appraisal cycles. OikikHR gives managers and employees a structured framework for continuous performance improvement.",
+        },
+        {
+          icon: "FolderOpen",
+          title: "Employee Self-Service Portal",
+          description:
+            "Employees can view payslips, request leave, update personal information, access company policies, and submit expense claims — reducing HR administrative overhead by up to 70%.",
+        },
+      ],
+      benefits: [
+        "Process payroll in minutes instead of days with automated calculations, deductions, and disbursements",
+        "Eliminate attendance disputes with biometric, mobile, and GPS-based time tracking",
+        "Reduce HR administrative workload by 70% with employee self-service for leave, payslips, and claims",
+        "Never miss compliance deadlines with automated tax calculations, statutory deductions, and filing reminders",
+        "Improve employee retention with structured onboarding, goal tracking, and performance review cycles",
+        "Get workforce insights with headcount analytics, attrition reports, and department cost dashboards",
+      ],
+      useCases: [
+        {
+          industry: "Growing Businesses (50–500 Employees)",
+          description:
+            "OikikHR replaces spreadsheets and manual HR processes with automated payroll, digital attendance, and self-service — giving growing teams the HR infrastructure they need to scale.",
+        },
+        {
+          industry: "Manufacturing & Field Operations",
+          description:
+            "Manage shift scheduling, overtime tracking, field worker attendance via GPS, and complex pay structures across multiple locations with OikikHR.",
+        },
+        {
+          industry: "Professional Services & IT",
+          description:
+            "Track billable hours, manage project-based teams, run structured performance reviews, and handle multi-tier compensation plans with OikikHR.",
+        },
+      ],
+      technicalHighlights: [
+        "Automated payroll engine with configurable salary structures, tax rules, and statutory compliance",
+        "Biometric and mobile attendance integration with GPS-based check-in support",
+        "Configurable leave policies with accrual rules, carry-forward logic, and approval workflows",
+        "Recruitment pipeline with applicant tracking, interview scheduling, and offer management",
+        "Employee self-service portal for payslips, leave requests, claims, and profile updates",
+        "RESTful API for integration with accounting software, biometric devices, and third-party tools",
+        "Cloud-hosted with role-based access, data encryption, audit logs, and 99.9% uptime SLA",
+      ],
+    },
   ],
 };
