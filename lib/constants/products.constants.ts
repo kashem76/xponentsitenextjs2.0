@@ -7,4 +7,10 @@ export const PRODUCT_IMAGES: Record<string, string> = {
     "https://images.unsplash.com/photo-1759038085935-b2f14c2c04a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMGxvYmJ5JTIwcmVjZXB0aW9ufGVufDF8fHx8MTc3MzQ5NzcwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
   "garden-landscape":
     "https://images.unsplash.com/photo-1772760110976-c9ce40fcb12b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYW5kc2NhcGUlMjBnYXJkZW4lMjBkZXNpZ24lMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzczNDk3NzA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "oikikbooks-accounting":
+    "https://images.unsplash.com/photo-1554224155-6726b3ff858f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+  "oikikinventory-warehouse":
+    "https://images.unsplash.com/photo-1553413077-190dd305871c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+  "oikikhr-office":
+    "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
 };

@@ -7,26 +7,28 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Software Products & Solutions | Enterprise & SaaS Applications | Xponent InfoSystem",
+    "Business Management Software Products | Accounting, Gym, Hotel & Landscaping Solutions | Xponent InfoSystem",
   description:
-    "Discover innovative software products and SaaS solutions developed by Xponent InfoSystem. Scalable, secure, and feature-rich applications designed to streamline business operations and drive growth.",
+    "Explore Xponent InfoSystem's ready-to-deploy business management software — accounting ERP, gym management system, hotel management software, and landscaping software. Industry-specific solutions built for Bangladesh businesses.",
   keywords: [
-    "software products",
-    "SaaS solutions",
-    "enterprise software",
-    "business applications",
-    "cloud-based software",
-    "Xponent products",
-    "custom software products",
-    "scalable applications",
-    "business automation tools",
-    "digital solutions",
-    "software applications Bangladesh",
+    "business management software Bangladesh",
+    "accounting ERP software",
+    "gym management software",
+    "hotel management software Bangladesh",
+    "landscaping management software",
+    "SaaS solutions Bangladesh",
+    "industry-specific software",
+    "cloud business software Bangladesh",
+    "enterprise software products",
+    "business automation software",
+    "Xponent InfoSystem products",
+    "software products Bangladesh",
   ],
   openGraph: {
-    title: "Software Products & Solutions | Enterprise & SaaS Applications",
+    title:
+      "Business Management Software Products | Accounting, Gym, Hotel & Landscaping Solutions",
     description:
-      "Explore Xponent InfoSystem's portfolio of innovative software products and SaaS solutions designed to transform businesses and enhance productivity.",
+      "Explore Xponent InfoSystem's portfolio of business management software — accounting ERP, gym management, hotel management systems, and landscaping software designed for Bangladesh businesses.",
     url: "https://www.xponent.com.bd/products",
     type: "website",
     locale: "en_US",
@@ -36,15 +38,15 @@ export const metadata: Metadata = {
         url: "/images/products-og.jpg",
         width: 1200,
         height: 630,
-        alt: "Xponent InfoSystem - Innovative Software Products & SaaS Solutions",
+        alt: "Xponent InfoSystem - Business Management Software Products",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Software Products & Solutions | Xponent InfoSystem",
+    title: "Business Management Software Products | Xponent InfoSystem",
     description:
-      "Innovative software products and SaaS solutions designed to transform businesses and enhance productivity.",
+      "Accounting ERP, gym management, hotel management & landscaping software — industry-specific solutions built for Bangladesh businesses.",
     images: ["/images/products-og.jpg"],
   },
   alternates: {

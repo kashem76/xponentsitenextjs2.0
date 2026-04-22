@@ -26,7 +26,10 @@ export default function ProductTemplate({ product }: IProductTemplateProps) {
         <ProductHeroSection product={product} />
 
         {/* Key Features Section */}
-        <ProductFeaturesSection features={product.keyFeatures} />
+        <ProductFeaturesSection
+          features={product.keyFeatures}
+          productName={product.name}
+        />
 
         {/* Benefits Section */}
         {product.benefits && (
@@ -46,7 +49,10 @@ export default function ProductTemplate({ product }: IProductTemplateProps) {
 
         {/* Technical Highlights Section */}
         {product.technicalHighlights && (
-          <ProductTechnicalSection highlights={product.technicalHighlights} />
+          <ProductTechnicalSection
+            highlights={product.technicalHighlights}
+            productName={product.name}
+          />
         )}
 
         {/* CTA Section */}

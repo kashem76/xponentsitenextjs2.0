@@ -4,11 +4,12 @@ export default function ProductsOverviewCtaSection() {
   return (
     <div className="mt-20 text-center bg-muted/20 p-12 rounded-2xl">
       <h2 className="text-2xl lg:text-3xl font-bold mb-4">
-        Need a Custom Solution?
+        Need a Custom Software Solution?
       </h2>
       <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-        We also build fully custom software tailored to your unique business
-        requirements.
+        Beyond our ready-made products, we build fully custom software and
+        enterprise applications tailored to your unique business requirements in
+        Bangladesh and beyond.
       </p>
       <Link
         href="/contact"

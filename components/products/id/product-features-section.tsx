@@ -3,10 +3,12 @@ import { getIconComponent } from "@/lib/utils/products/get-icon-component";
 
 interface IProductFeaturesSectionProps {
   features: IProductKeyFeature[];
+  productName: string;
 }
 
 export default function ProductFeaturesSection({
   features,
+  productName,
 }: IProductFeaturesSectionProps) {
   if (!features || features.length === 0) return null;
 
@@ -18,11 +20,11 @@ export default function ProductFeaturesSection({
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 leading-tight">
-            Key Features
+            {productName} Key Features
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Powerful capabilities designed to streamline your operations and
-            improve efficiency.
+            Powerful {productName} capabilities designed to streamline your
+            operations and improve efficiency.
           </p>
         </div>
 
