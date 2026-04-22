@@ -30,6 +30,8 @@ export interface ICareer {
   niceToHave: string[];
   successMetrics: string[];
   whyJoin: string[];
+  applicationNote?: string;
+  applicationSteps?: string[];
 }
 
 export interface ICareersData {
