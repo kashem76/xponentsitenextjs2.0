@@ -11,6 +11,7 @@ import CareerDetailRequirements from "@/components/careers/detail/career-detail-
 import CareerDetailMetrics from "@/components/careers/detail/career-detail-metrics";
 import CareerDetailWhyJoin from "@/components/careers/detail/career-detail-why-join";
 import CareerDetailCallout from "@/components/careers/detail/career-detail-callout";
+import CareerDetailApplicationNote from "@/components/careers/detail/career-detail-application-note";
 import { Metadata } from "next";
 
 interface PageProps {
@@ -146,6 +147,14 @@ export default async function CareerDetailPage({ params }: PageProps) {
       {/* Success Metrics */}
       {career.successMetrics && career.successMetrics.length > 0 && (
         <CareerDetailMetrics metrics={career.successMetrics} />
+      )}
+
+      {/* Application Note */}
+      {career.applicationNote && career.applicationSteps && career.applicationSteps.length > 0 && (
+        <CareerDetailApplicationNote
+          note={career.applicationNote}
+          steps={career.applicationSteps}
+        />
       )}
 
       {/* Why Join */}

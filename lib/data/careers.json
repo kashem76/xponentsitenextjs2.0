@@ -72,13 +72,432 @@
       ]
     },
     {
+      "id": "head-of-growth",
+      "title": "Head of Growth — Founding Hire",
+      "department": "Marketing",
+      "location": "On-Site | Chattogram",
+      "type": "Full-Time",
+      "experience": "Open — trajectory matters more than years",
+      "salary": "To be decided during interview",
+      "isOpen": true,
+      "postedDate": "2026-04-22",
+      "overview": "If you're a digital marketer who has sensed that the job is changing under your feet — that AI is quietly eating the parts you used to get paid for — and you've been actively pushing yourself to become something new, read on.\n\nWe're not hiring for yesterday's digital marketing role. We're hiring for what it's becoming: a growth operator who runs strategy and judgment, and directs a team of humans and AI agents to do the rest.\n\nYou don't need a perfect CV. You need the right trajectory.\n\nWe're building a growing portfolio of online products and SaaS tools. Some are already live with paying customers; others are on their way to becoming AI-operable in the near term. What we don't yet have is a real growth function.\n\nThat's the seat you'd take.\n\nThis is a founding role. You'll set the growth strategy, build the stack, decide what humans do, what AI agents do, and what we outsource. You'll report directly to the founder and have real ownership — not \"marketing manager\" scope, but \"you own whether our products grow\" scope.",
+      "callout": "This is a founding role with real scope and real ownership. We don't care whether you've done SaaS growth before. We care whether you're hungry, curious, and willing to build something new instead of clinging to a playbook that's getting outdated. Experience level is open — if you're a sharp mid-level digital marketer with the right trajectory, we want to hear from you. If you're senior and already doing this, even better.",
+      "responsibilities": [
+        "Own the funnel across products — acquisition, activation, conversion, retention, expansion. Define what we measure, set the targets, move them",
+        "Build positioning and narrative for each product — who it's for, why it wins, what we say, what we don't. This is the human work that cannot be handed off",
+        "Talk to customers constantly — sit in on support, read tickets, hop on calls. Form a real point of view on what users actually need",
+        "Design and run experiments — decide what's worth testing, read results honestly, kill what doesn't work",
+        "Architect a human + AI team — direct a small team of humans plus an expanding stack of AI agents handling content production, ad variants, lifecycle email, competitor tracking, reporting, lead enrichment, and outreach",
+        "Run channels and partners — paid, SEO, content, community, partnerships. Decide where to play, bring in contractors when needed, keep the whole thing coherent",
+        "Tie marketing to revenue — work closely with product and the founder to connect what you do to business outcomes that matter"
+      ],
+      "whatYouWillOwn": [
+        "Growth strategy across a portfolio of products",
+        "Full-funnel metrics and targets",
+        "Product positioning and narrative",
+        "Human + AI growth team architecture",
+        "Channel strategy and partner relationships",
+        "Customer insight and feedback loops"
+      ],
+      "requirements": [
+        "You think clearly and write well — everything downstream flows from how you frame things",
+        "You have taste — you can look at an AI-generated output and know when it's generic garbage vs. when it's good",
+        "You're comfortable with ambiguity and early-stage chaos",
+        "You understand numbers — funnel math, conversion rates, basic unit economics. Or you're eager to learn",
+        "You see AI as a team member, not a tool to help write captions faster",
+        "You're ready to own outcomes, not just activities"
+      ],
+      "whoYouAre": [
+        "Started using ChatGPT, Claude, or similar tools seriously in your own work",
+        "Noticed that a lot of what you were taught to do can now be done in minutes by a prompt",
+        "Begun asking yourself what the next version of this job looks like",
+        "Started experimenting — maybe building workflows, trying new tools, reading about AI agents, thinking about SaaS and product growth"
+      ],
+      "niceToHave": [
+        "Experience in SaaS or product-led growth",
+        "Background in running paid acquisition or SEO at scale",
+        "Familiarity with AI agent workflows and automation tools",
+        "Experience managing contractors or small teams",
+        "Understanding of unit economics and subscription metrics"
+      ],
+      "successMetrics": [
+        "Products are growing — measurable improvement in acquisition, activation, and retention",
+        "A working growth stack exists — humans, AI agents, and tools operating as a system",
+        "Positioning is clear and differentiated across products",
+        "Experiments are running regularly with honest reads on results",
+        "The founder has full visibility into what's working and what's not",
+        "Revenue impact is trackable and growing"
+      ],
+      "whyJoin": [
+        "A founding seat with real scope, real ownership, and direct work with the founder",
+        "A portfolio of products to grow, not a single campaign to babysit",
+        "A company that takes AI-native operation seriously — not as a buzzword, but as how we build",
+        "A steep learning curve with full backing — Claude and similar tools are part of how we work, every day",
+        "A small, sharp in-office team in Chattogram"
+      ],
+      "applicationNote": "Skip cover letters. Instead, send us these three things — they're what we actually read:",
+      "applicationSteps": [
+        "A short note on a marketing or growth problem you've worked on — what was the situation, what did you do, what happened, and what would you do differently today?",
+        "One concrete example of how you've used AI to do something meaningfully better or faster than you would have done it the traditional way. Be specific — which tool, what setup, what outcome.",
+        "Your CV or LinkedIn."
+      ]
+    },
+    {
+      "id": "marketing-associate",
+      "title": "Marketing Associate — Generalist",
+      "department": "Marketing",
+      "location": "On-Site | Chattogram",
+      "type": "Full-Time",
+      "experience": "1–3 years (or sharp fresh grad)",
+      "salary": "To be decided during interview",
+      "isOpen": true,
+      "postedDate": "2026-04-22",
+      "overview": "You're early in your marketing career, or you've spent a few years doing a bit of everything and you like it that way. You're hungry, fast, curious, and you don't want to specialize into a narrow box just yet. You've started using AI tools seriously — not to cheat, but because you realized they make you 3x faster at the boring parts so you can spend time on the interesting parts.\n\nIf that's you, this role is the best generalist seat we have to offer.\n\nThe Head of Growth sets strategy. The specialists (content, design, paid, success, community) go deep in their lanes. You're the person in the middle who makes things move.\n\nYou'll be the right hand to the Head of Growth — running coordination, executing across whatever the week demands, directing AI agents for day-to-day production, and keeping the whole operation from dropping balls.\n\nThis is a role where you learn more in 6 months than most people do in 2 years. It's also a role where if you want to eventually specialize (into content, paid, product marketing, whatever) you'll have had exposure to all of it.",
+      "responsibilities": [
+        "Execute across whatever the funnel needs this week — briefs, pages, emails, social, copy, experiments, reports",
+        "Direct AI agents for production work: drafts, research, competitor monitoring, enrichment, variants",
+        "Own the calendar, the project tracker, the \"who's doing what by when\"",
+        "Run quality-check on AI outputs before they go live — taste is your job, not just speed",
+        "Pull together weekly reporting across channels",
+        "Jump into customer conversations, read support tickets, bring the team insights from the field",
+        "Help hire and onboard the next person behind you"
+      ],
+      "requirements": [
+        "1–3 years in marketing (agency, in-house, freelance — doesn't matter) or a sharp fresh grad who has already been doing real work on the side",
+        "You write clearly — you think in outlines and bullets when you need to, prose when it matters",
+        "You've already been using ChatGPT, Claude, or similar as part of your actual workflow — not just experimenting",
+        "You notice when AI output sounds generic and you know how to fix it",
+        "You like owning things end-to-end, even when the things are small",
+        "You're comfortable with messy, fast, multi-product environments"
+      ],
+      "niceToHave": [
+        "Experience in SaaS or product marketing",
+        "Familiarity with project management tools and workflows",
+        "Background in content, social, or email marketing",
+        "Experience directing AI agents or automation workflows"
+      ],
+      "successMetrics": [
+        "The growth team runs smoothly — nothing gets dropped",
+        "AI agents are producing on-brand output under your direction",
+        "Weekly reporting is clear, honest, and on time",
+        "Cross-functional execution is fast and high quality",
+        "The Head of Growth can focus on strategy because you own execution"
+      ],
+      "whyJoin": [
+        "The fastest generalist learning curve in marketing — exposure to every channel and function",
+        "Right hand to the Head of Growth with direct access to the founder",
+        "A founding team seat with real ownership, not junior busywork",
+        "AI-native work environment where you'll build skills most marketers won't have for years",
+        "A clear path to specialize once you find what you love"
+      ],
+      "applicationNote": "Skip cover letters. Send us these three things — they're what we actually read:",
+      "applicationSteps": [
+        "A short note on something you've shipped or built — could be a campaign, a project, a side hustle, a content piece, anything. What was it, what did you do, what happened?",
+        "One concrete example of how you use AI in your work. Which tool, what setup, what outcome.",
+        "Your CV or LinkedIn."
+      ]
+    },
+    {
+      "id": "content-lead",
+      "title": "Content Lead — SEO + Content Operations",
+      "department": "Marketing",
+      "location": "On-Site | Chattogram",
+      "type": "Full-Time",
+      "experience": "1–3+ years in SEO or content",
+      "salary": "To be decided during interview",
+      "isOpen": true,
+      "postedDate": "2026-04-22",
+      "overview": "You're an SEO or content specialist who has been watching the ground shift. You've seen the \"write 20 blog posts a month\" model get commoditized overnight by AI. You've read the debates about whether SEO is dead (it isn't, but the old playbook is). And somewhere along the way, you've made a decision: you're not going to be the person AI replaces. You're going to be the person who directs AI to do what used to take a team of 10.\n\nIf that's you, this is a role where your instincts and your AI fluency both matter — and where you can build something serious.\n\nContent and SEO are the most obvious place where AI has changed the economics. What took a team now takes one sharp operator with the right stack. But AI alone produces generic, low-trust, search-invisible garbage. The work is in the direction: what to write, why, for whom, how to make it actually rank and actually convert.\n\nYou'll own content and SEO end-to-end across our online products. You'll set the topical strategy, build the content engine (humans + AI), and own organic as a growth channel. You'll also work closely with the Head of Growth on positioning — because content is where positioning meets traffic.",
+      "responsibilities": [
+        "Own organic search and content as a growth channel — from strategy down to published output",
+        "Build the topical map for each product: what we rank for, what we own, what we don't bother with",
+        "Run the content engine: briefs, drafts, editing, publishing, internal linking, updates",
+        "Architect the human + AI workflow — what AI drafts, what humans write, what humans gate, what gets killed",
+        "Own editorial judgment and quality bar — nothing generic ships",
+        "Build and manage link-building and authority-growth plays",
+        "Track what's working — rankings, traffic, conversions — and iterate based on results, not vanity",
+        "Collaborate with design and performance on content that supports paid and lifecycle"
+      ],
+      "requirements": [
+        "You've done SEO or content marketing for at least a year or two and can talk about rankings, intent, SERPs, internal linking, and content quality with actual opinions",
+        "You've already rebuilt your workflow around AI — you've probably prompted, iterated, built templates, maybe tried agent setups",
+        "You write well yourself, and you know what bad writing looks like",
+        "You understand that \"AI content\" isn't a strategy — quality and relevance are. AI is the factory, you're the editor-in-chief",
+        "You're curious about what's changing in search (AI Overviews, Perplexity, LLM-driven discovery) and thinking about what's next",
+        "You can read data and make calls, not just list metrics in a dashboard"
+      ],
+      "niceToHave": [
+        "Experience with programmatic or scaled content operations",
+        "Background in SaaS or product-led content",
+        "Familiarity with AI agent workflows for content production",
+        "Link-building or digital PR experience",
+        "Understanding of conversion copywriting"
+      ],
+      "successMetrics": [
+        "Organic traffic growing across products",
+        "Content engine running — consistent, high-quality output at scale",
+        "Rankings improving on target topics",
+        "Content contributing to conversions, not just pageviews",
+        "Editorial quality bar is clear and enforced",
+        "AI workflow is documented and repeatable"
+      ],
+      "whyJoin": [
+        "Own content and SEO across a portfolio of products — not one blog on one product",
+        "Build the content engine from scratch with full AI integration",
+        "Direct access to the Head of Growth and founder",
+        "A company that understands AI-native content is the future, not a shortcut",
+        "A small, sharp in-office team in Chattogram"
+      ],
+      "applicationNote": "Skip cover letters. Send us these three things — they're what we actually read:",
+      "applicationSteps": [
+        "A piece of writing you're proud of — blog post, ranked article, landing page, newsletter, your pick. Include the URL and tell us why you're proud of it.",
+        "One concrete example of how you've used AI in content or SEO work. What was the setup, what did you produce, what would've been different without AI?",
+        "Your CV or LinkedIn."
+      ]
+    },
+    {
+      "id": "performance-marketer",
+      "title": "Performance Marketer — Paid + Analytics",
+      "department": "Marketing",
+      "location": "On-Site | Chattogram",
+      "type": "Full-Time",
+      "experience": "1–3+ years running paid campaigns",
+      "salary": "To be decided during interview",
+      "isOpen": true,
+      "postedDate": "2026-04-22",
+      "overview": "You've been running paid campaigns — Meta, Google, maybe LinkedIn or TikTok — for a while. You've watched the platforms swallow more and more of the work: automated bidding, Advantage+, Performance Max. At first it felt threatening; now you understand it for what it is. The algorithms handle the mechanics. Your job is to feed them the right inputs (audiences, creative, signals, offers) and read what they tell you back.\n\nYou've also figured out that analytics and attribution are now the leverage points. Anyone can launch a campaign. Very few people can tell you honestly whether it's working.\n\nAs our products scale, paid will matter — but only if we can measure it honestly and iterate fast. We don't want someone who \"runs ads.\" We want someone who owns paid as a real growth channel and who can tie it back to actual business outcomes.\n\nYou'll own paid across channels, own the analytics layer, and partner closely with design and content on the creative that feeds it.",
+      "responsibilities": [
+        "Own paid channels end-to-end: strategy, budgets, targeting, creative briefs, optimization, reporting",
+        "Run the creative testing engine — direct AI for variant production, work with the designer on concepts that matter, kill what doesn't work",
+        "Own the analytics and attribution setup — what we track, how we track it, what we trust, what we don't",
+        "Build the reporting that tells the team (and the founder) what's actually happening, not what looks good on a slide",
+        "Work on landing pages and conversion rate optimization with the Head of Growth and designer",
+        "Partner with Content and Community on lifecycle + retargeting flows",
+        "Keep a running view of unit economics — CAC, payback, LTV — and flag when things shift"
+      ],
+      "requirements": [
+        "1–3+ years running paid campaigns with real budget responsibility (even small budgets count if you owned the results)",
+        "Comfortable with numbers and analytics — GA4, Meta Ads Manager, spreadsheets, basic SQL is a bonus but not required",
+        "You've already started using AI for creative variants, ad copy, audience research, or analytics — and you can show us how",
+        "You treat reporting as a thinking exercise, not a checkbox — you'd rather show one honest insight than ten pretty charts",
+        "You understand that creative is the biggest lever in paid today — and you know how to judge whether an ad is any good",
+        "You're curious about what's changing in measurement (iOS changes, cookie deprecation, server-side tracking, incrementality testing)"
+      ],
+      "niceToHave": [
+        "Experience with Meta and Google Ads at scale",
+        "Background in analytics or data — SQL, GA4, Mixpanel, Amplitude",
+        "Understanding of conversion rate optimization",
+        "Experience with AI-generated creative at scale",
+        "Familiarity with attribution challenges in a post-cookie world"
+      ],
+      "successMetrics": [
+        "Paid channels are profitable and scaling — CAC, ROAS, and payback are tracked and improving",
+        "Creative testing is running continuously with clear learnings",
+        "Analytics and attribution are set up honestly — the team trusts the numbers",
+        "Reporting tells the story, not just the stats",
+        "Unit economics are visible and flagged early when they shift",
+        "Landing page conversion rates are improving through testing"
+      ],
+      "whyJoin": [
+        "Own paid and analytics across a portfolio of products, not a single ad account",
+        "Work with a designer and content team who understand creative matters",
+        "AI-native workflow — use AI for variants, research, and reporting at scale",
+        "Direct access to the Head of Growth and founder",
+        "A small, sharp in-office team in Chattogram"
+      ],
+      "applicationNote": "Skip cover letters. Send us these three things — they're what we actually read:",
+      "applicationSteps": [
+        "A short write-up of a campaign you ran — budget, setup, what you tested, what you learned, what the outcome was. If it flopped, tell us what you'd do differently.",
+        "One concrete example of how you've used AI in paid or analytics work. Which tool, what setup, what outcome.",
+        "Your CV or LinkedIn."
+      ]
+    },
+    {
+      "id": "designer-brand-marketing",
+      "title": "Designer — Brand + Product Marketing",
+      "department": "Design",
+      "location": "On-Site | Chattogram",
+      "type": "Full-Time",
+      "experience": "2+ years in design",
+      "salary": "To be decided during interview",
+      "isOpen": true,
+      "postedDate": "2026-04-22",
+      "overview": "You're a designer who has watched AI tools go from novelty to essential in about two years. You've probably used Midjourney, tried Figma's AI features, maybe played with v0 or similar. You've noticed that AI is great at \"an image\" and still pretty bad at \"a coherent brand.\"\n\nThat gap is where your job lives. Taste, systems thinking, and knowing when a computer-generated output is \"close enough\" vs. \"no, this is off\" — that's the work.\n\nWe're building a portfolio of products that all need to feel like ours. Not generic. Not AI-slop. Not agency-cookie-cutter. That only happens if one person is holding the thread — building the brand systems, setting the visual standards, and making sure every touchpoint (landing pages, ads, social, product screens, email) feels intentional.\n\nYou'll own brand and marketing design across our products. You'll use AI aggressively for scale and iteration, but you'll be the taste layer that keeps everything from drifting into sameness.",
+      "responsibilities": [
+        "Build and maintain brand systems for each product — type, color, spacing, voice, visual language",
+        "Design landing pages, ads, social creative, email templates, pitch decks — with the whole team, not in isolation",
+        "Direct AI tools (Midjourney, Figma AI, Canva AI, etc.) for variants, iteration, and production work",
+        "Partner with Performance on ad creative that actually converts",
+        "Partner with Content on visual storytelling and editorial design",
+        "Build templates and systems so the rest of the team (and AI agents) can produce on-brand output without you being a bottleneck",
+        "Own the quality bar for anything that ships with a visual in it"
+      ],
+      "requirements": [
+        "2+ years of design experience — brand, marketing, product, or a mix",
+        "A portfolio that shows taste, not just skill — you can tell good work from bad, and you can explain why",
+        "Already using AI tools in your actual workflow — you've formed opinions about what they're good at and where they fall short",
+        "Comfortable in Figma as a given — comfortable with speed over perfection when it matters",
+        "You care about the whole system, not just the artifact — you think about how templates, components, and patterns compound",
+        "You can take input from non-designers without being defensive, and you can push back when something is wrong"
+      ],
+      "niceToHave": [
+        "Experience building brand systems or design systems from scratch",
+        "Background in SaaS or product marketing design",
+        "Motion design or video editing skills",
+        "Familiarity with front-end implementation (CSS, Tailwind, component libraries)",
+        "Experience with AI image generation workflows at scale"
+      ],
+      "successMetrics": [
+        "Products have a coherent, intentional visual identity — not generic, not AI-slop",
+        "Templates and systems exist so the team can produce on-brand output without bottlenecks",
+        "Ad and landing page creative is converting — not just looking pretty",
+        "AI tools are integrated into the design workflow for speed without sacrificing quality",
+        "The quality bar is clear and maintained across all touchpoints",
+        "Design turnaround is fast — the team isn't waiting on you"
+      ],
+      "whyJoin": [
+        "Own brand and design across a portfolio of products — build something coherent from scratch",
+        "Work with a growth team that understands design matters, not just \"make it pretty\"",
+        "AI-native workflow — use AI aggressively for scale, be the taste layer that keeps it real",
+        "Direct access to the Head of Growth and founder",
+        "A small, sharp in-office team in Chattogram"
+      ],
+      "applicationNote": "Skip cover letters. Send us these three things — they're what we actually read:",
+      "applicationSteps": [
+        "Your portfolio — link or PDF. Tell us which 2–3 pieces you're most proud of and why.",
+        "One concrete example of how you've used AI in design work. Which tool, what for, what the outcome was, and what you had to fix about the AI output.",
+        "Your CV or LinkedIn."
+      ]
+    },
+    {
+      "id": "customer-success",
+      "title": "Customer Success — Activation & Retention",
+      "department": "Marketing",
+      "location": "On-Site | Chattogram",
+      "type": "Full-Time",
+      "experience": "1–3 years in support or customer success",
+      "salary": "To be decided during interview",
+      "isOpen": true,
+      "postedDate": "2026-04-22",
+      "overview": "You've worked in support, customer success, or account management. You're good with people, patient with confused users, and genuinely curious about why humans behave the way they do. Somewhere along the way, you realized two things: first, that the \"success\" part of customer success is really about product and growth — getting people to real value fast. Second, that AI is going to handle a lot of the reactive support work that used to eat your day, freeing you to do the strategic part you actually like.\n\nThis role is designed for exactly that shift.\n\nSignup is the beginning, not the goal. Our growth depends on whether users actually get value from our products — whether they activate, stick, and eventually pay more. That work lives in the gap between marketing and product, and right now nobody owns it.\n\nYou will.\n\nYou'll own the post-signup experience, drive activation, reduce churn, and — critically — bring the rest of the team a constant stream of insight from real users. Everyone else on the team will be smarter because you're talking to customers every day.",
+      "responsibilities": [
+        "Own the user journey from signup through first value, onboarding, and ongoing engagement",
+        "Design and run onboarding flows, lifecycle emails, and in-product nudges (with the team, AI-assisted for scale)",
+        "Talk to users constantly — calls, surveys, support tickets, community posts — and turn that into insight",
+        "Run the support function: set up AI-first triage (Claude, chatbots, knowledge bases) and handle the hard cases yourself",
+        "Build and maintain help docs, FAQs, onboarding content — AI drafts, your judgment gates",
+        "Track activation rates, retention curves, churn signals — flag when something breaks, propose what to fix",
+        "Partner with product on feedback loops — what users ask for, what confuses them, where they drop off",
+        "Be the team's voice-of-the-customer — not in a corporate sense but in a real one"
+      ],
+      "requirements": [
+        "1–3 years in customer support, customer success, account management, or similar — SaaS experience is a plus but not required",
+        "You genuinely like helping people, and you get impatient when the product makes their life harder than it needs to be",
+        "You're comfortable writing — emails, help docs, in-app copy — because a lot of this job is written communication",
+        "You've started using AI in your workflow (drafting responses, summarizing tickets, building help content) and you can show us how",
+        "You're analytical enough to read retention data and spot patterns, or eager to learn",
+        "You don't see AI-first support as a threat — you see it as a way to finally stop answering the same question 50 times a day and focus on the conversations that actually matter"
+      ],
+      "niceToHave": [
+        "Experience with SaaS onboarding or activation work",
+        "Familiarity with support tools (Intercom, Zendesk, Crisp, etc.)",
+        "Background in building help centers or knowledge bases",
+        "Experience with lifecycle email or in-app messaging",
+        "Understanding of retention metrics and cohort analysis"
+      ],
+      "successMetrics": [
+        "Activation rates improving — more users reaching first value faster",
+        "Churn decreasing — users who activate are staying and expanding",
+        "AI-first support is running — common questions handled automatically, you handle the hard ones",
+        "The team has a constant stream of user insight — what's working, what's breaking, what's confusing",
+        "Help docs and onboarding content are high quality and up to date",
+        "Users feel heard — NPS, CSAT, or qualitative signals are positive and improving"
+      ],
+      "whyJoin": [
+        "Own the entire post-signup experience — activation, retention, and the voice of the customer",
+        "Build AI-first support from scratch instead of inheriting a legacy system",
+        "Direct access to the Head of Growth and founder",
+        "Your insights directly shape product and growth decisions",
+        "A small, sharp in-office team in Chattogram"
+      ],
+      "applicationNote": "Skip cover letters. Send us these three things — they're what we actually read:",
+      "applicationSteps": [
+        "A short note about a tough customer situation you handled — what was the situation, what did you do, what happened?",
+        "One concrete example of how you've used AI in customer-facing work. Which tool, what setup, what outcome.",
+        "Your CV or LinkedIn."
+      ]
+    },
+    {
+      "id": "community-social-lead",
+      "title": "Community & Social Lead",
+      "department": "Marketing",
+      "location": "On-Site | Chattogram",
+      "type": "Full-Time",
+      "experience": "1–3 years in social or community",
+      "salary": "To be decided during interview",
+      "isOpen": true,
+      "postedDate": "2026-04-22",
+      "overview": "You've been running social accounts, managing communities, or doing content-creator-adjacent work for a while. You know the grind — daily posts, engagement, DMs, the endless feed of everyone's takes. And you've started noticing something: AI can now produce \"a LinkedIn post\" in 10 seconds, but AI cannot build an audience, hold a voice, or know which comment to reply to and how.\n\nThe human parts of this job just became the whole job. That suits you fine.\n\nIn a world where AI floods every feed with decent-but-forgettable content, what cuts through is voice, point of view, and actual relationships. That's what we want to build — across LinkedIn, X, YouTube, newsletter, whatever fits our products and our audience.\n\nYou'll own community and social across our products. You'll build audience, hold brand voice, engage real humans, and use AI as scaffolding rather than as a replacement for thought.",
+      "responsibilities": [
+        "Own social and community strategy across channels — decide where to play, why, and what we're trying to do in each",
+        "Hold and evolve brand voice — every post should sound like us, not like every other SaaS feed",
+        "Produce and publish — mix of your own writing, AI-drafted content you direct and polish, and team contributions you coordinate",
+        "Run the posting engine: calendar, variants, scheduling, reposts, repurposing across formats",
+        "Engage — reply to comments, hop into relevant conversations, build relationships with people who matter in our space",
+        "Build and nurture community spaces (Slack, Discord, subreddit, newsletter comments, wherever our users gather)",
+        "Partner with Content on turning long-form into social, and with Customer Success on turning user stories into posts",
+        "Track what's working — not vanity metrics, but the ones that tie to growth"
+      ],
+      "requirements": [
+        "1–3 years running social accounts, community, or creator-adjacent work (in-house, agency, or your own projects)",
+        "A strong writing voice, and you can flex it across serious and playful",
+        "You've already been using AI for drafts, variants, repurposing — and you know the difference between AI-assisted good content and AI-generated slop",
+        "You understand that the job isn't \"post 10 times a week,\" it's \"build an audience that trusts us\" — those are very different things",
+        "You're comfortable being in public as part of the brand — replying, engaging, sometimes being the face",
+        "You're up to date on what's working on each platform right now — and humble enough to change your mind when things shift"
+      ],
+      "niceToHave": [
+        "Experience building a community from scratch",
+        "Background in SaaS or tech social media",
+        "Video or short-form content creation skills",
+        "Experience with social listening and analytics tools",
+        "A personal following or content portfolio that shows your voice"
+      ],
+      "successMetrics": [
+        "Audience is growing on key channels — followers, subscribers, community members",
+        "Engagement is real — conversations, not just likes. People reply, share, and come back",
+        "Brand voice is consistent and recognizable across channels",
+        "Community spaces are active and providing real value to users",
+        "Social is contributing to growth — referral traffic, signups, brand awareness that ties to pipeline",
+        "AI is integrated into the workflow for speed without sacrificing voice"
+      ],
+      "whyJoin": [
+        "Own community and social across a portfolio of products — build real audience, not just manage a feed",
+        "Work with a content team and growth team that understand voice matters",
+        "AI-native workflow — use AI for scaffolding, be the voice that makes it human",
+        "Direct access to the Head of Growth and founder",
+        "A small, sharp in-office team in Chattogram"
+      ],
+      "applicationNote": "Skip cover letters. Send us these three things — they're what we actually read:",
+      "applicationSteps": [
+        "Link us to a social account, community, or piece of content you've built or helped build. Tell us what you did and what the outcome was.",
+        "One concrete example of how you use AI in social or community work — what you use it for, what you don't, and why.",
+        "Your CV or LinkedIn."
+      ]
+    },
+    {
       "id": "head-of-marketing-growth",
       "title": "Head of Marketing & Growth",
       "department": "Marketing",
       "location": "Remote / Hybrid",
       "type": "Full-time",
       "experience": "3-7 years",
+<<<<<<< HEAD
       "salary": "৳70,000 - ৳100,000",
+=======
+      "salary": "To be decided during interview",
+>>>>>>> cac88f6b3d7b462bd7dca6d40616aed78a04cec2
       "isOpen": true,
       "postedDate": "2024-03-10",
       "overview": "We are looking for a Head of Marketing & Growth to lead the expansion of Xponent's technology services. This role is responsible for building our lead generation engine, improving client acquisition, and developing strategic partnerships with businesses and enterprises. This is not a social media role. This is a growth leadership role focused on revenue, client acquisition, and market expansion.",
@@ -137,7 +556,11 @@
       "location": "Remote / Hybrid",
       "type": "Full-time",
       "experience": "1-3 years",
+<<<<<<< HEAD
       "salary": "৳50,000 - ৳70,000",
+=======
+      "salary": "To be decided during interview",
+>>>>>>> cac88f6b3d7b462bd7dca6d40616aed78a04cec2
       "isOpen": true,
       "postedDate": "2024-03-10",
       "overview": "We are hiring Sales Executives to help convert interested businesses into Xponent clients through consultation, needs analysis, and solution presentation. This role focuses on understanding client challenges, communicating our technology capabilities, and closing B2B service deals.",
@@ -187,7 +610,11 @@
       "location": "Remote",
       "type": "Full-time / Contract",
       "experience": "2-4 years",
+<<<<<<< HEAD
       "salary": "৳40,000 - ৳60,000",
+=======
+      "salary": "To be decided during interview",
+>>>>>>> cac88f6b3d7b462bd7dca6d40616aed78a04cec2
       "isOpen": true,
       "postedDate": "2024-03-10",
       "overview": "We are looking for a Technology Content Writer to help build authority for Xponent through high-quality educational and thought leadership content. This role focuses on writing content that attracts business leaders, CTOs, product managers, and decision-makers looking for technology solutions.",
@@ -247,7 +674,11 @@
       "location": "Remote",
       "type": "Full-time / Part-time",
       "experience": "1-3 years",
+<<<<<<< HEAD
       "salary": "৳30,000 - ৳50,000",
+=======
+      "salary": "To be decided during interview",
+>>>>>>> cac88f6b3d7b462bd7dca6d40616aed78a04cec2
       "isOpen": true,
       "postedDate": "2024-03-10",
       "overview": "We are looking for a Community Marketing Specialist to help grow Xponent's presence through conversations, relationships, and community engagement in technology and business communities. This role focuses on distribution and relationship-building, not just posting content.",
@@ -298,7 +729,11 @@
       "location": "Remote",
       "type": "Full-time",
       "experience": "2-4 years",
+<<<<<<< HEAD
       "salary": "৳50,000 - ৳70,000",
+=======
+      "salary": "To be decided during interview",
+>>>>>>> cac88f6b3d7b462bd7dca6d40616aed78a04cec2
       "isOpen": true,
       "postedDate": "2024-03-10",
       "overview": "We are hiring an Outreach & Partnerships Representative to help expand Xponent through strategic partnerships, referral relationships, and targeted outreach to businesses, agencies, and technology vendors.",
@@ -349,7 +784,11 @@
       "location": "Remote / Hybrid",
       "type": "Full-time",
       "experience": "5+ years",
+<<<<<<< HEAD
       "salary": "৳100,000 - ৳150,000",
+=======
+      "salary": "To be decided during interview",
+>>>>>>> cac88f6b3d7b462bd7dca6d40616aed78a04cec2
       "isOpen": true,
       "postedDate": "2024-03-10",
       "overview": "We are looking for a Senior Product Engineer to help architect and build scalable software platforms, AI-powered systems, and digital business solutions for our clients. This role is for engineers who think about systems, not just endpoints. You will work closely with the founders and clients to design backend architecture, improve reliability, and guide development teams.",
@@ -419,7 +858,7 @@
       "location": "On-Site",
       "type": "Full-time",
       "experience": "2-4 years",
-      "salary": "Competitive — discussed during interview",
+      "salary": "To be decided during interview",
       "isOpen": true,
       "urgent": true,
       "postedDate": "2026-04-07",
