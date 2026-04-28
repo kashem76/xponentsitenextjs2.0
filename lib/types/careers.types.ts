@@ -26,10 +26,12 @@ export interface ICareer {
   whatYouWillWorkOn?: string[];
   requirements: string[];
   whoYouAre?: string[];
-  technicalEnvironment?: string[];
-  niceToHave: string[];
+  whatWeDoNotNeed?: string[];
+  technicalEnvironment?: string[] | { workWith: string[]; buildWith: string[] };
+  niceToHave?: string[];
   successMetrics: string[];
   whyJoin: string[];
+  locationNote?: string;
   applicationNote?: string;
   applicationSteps?: string[];
 }

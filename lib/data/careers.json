@@ -831,73 +831,106 @@
       "id": "full-stack-javascript-developer",
       "title": "Full Stack JavaScript Developer",
       "department": "Engineering",
-      "location": "On-Site",
+      "location": "On-Site | Chattogram",
       "type": "Full-time",
-      "experience": "2-4 years",
-      "salary": "To be decided during interview",
+      "experience": "2+ years",
+      "salary": "BDT 35,000 - 45,000/month (negotiable for exceptional candidates)",
       "isOpen": true,
       "urgent": true,
-      "postedDate": "2026-04-07",
-      "overview": "Xponent builds custom software, AI-powered products, and SaaS platforms — including our own products in the digital marketing space. If you are a developer who wants to work on real SaaS products with real users, alongside client projects across different industries, this is that kind of role.\n\nWe are looking for a Full Stack JavaScript Developer who operates beyond the traditional coding role — someone who leads delivery, not just executes it.\n\nAI now handles the bulk of code generation. Your role is to use that capability fully and responsibly — as a builder, a manager, and an owner. As a builder, you direct AI tools to design and develop full-stack features. As a manager, you own the quality of that output — reviewing, testing, debugging, and integrating until it meets production standards. As an owner, you take full responsibility for what ships: its reliability, its correctness, and how it fits within the broader system.\n\nThis means your time is spent less on writing individual lines of code and more on understanding what needs to be built, making sound decisions, driving delivery forward, and communicating clearly with the team.",
-      "callout": "This role is not for someone looking for a short-term contract or a stepping stone. We are building a team for the long term. We are looking for someone who wants to grow here — into senior and eventually leadership positions — and build a career, not just fill a seat. If you are serious about that kind of trajectory, we want to hear from you.",
+      "postedDate": "2026-04-28",
+      "overview": "Let's be clear from the start: You will not be writing code.\n\nAt Xponent, we build features using AI tools like Claude, Cursor, and GitHub Copilot. The AI writes the code. Your job is everything that comes after.\n\nYour role is to:\n• Use AI tools to generate the code we need\n• Work with code that's been written by AI or provided to you\n• Verify it does exactly what it's supposed to do\n• Test it thoroughly until you've found every issue\n• Understand it deeply enough to know if it's right or wrong\n• Find the gaps and get them filled\n• Make sure it's ready for production\n\nThis is a building role, not a coding role. You're building features by directing AI tools and verifying their output. You're ensuring quality, not typing syntax.\n\nThe skill we need is not \"can you write JavaScript from scratch.\" The skill we need is: Can you read code, understand it completely, verify it matches requirements, test it until it breaks, find what's missing, and know when it's ready to ship?\n\nIf you're someone who loves writing every line of code yourself from first principles, this role will frustrate you. If you're someone who wants to build features fast using the best tools available and take full ownership of quality, this is exactly the right role.",
+      "callout": "This is a long-term position with room to grow into senior and leadership roles. We're building a team for the long haul.",
       "responsibilities": [
-        "Take features from requirement to production with full ownership",
-        "Use AI coding tools (Cursor, Claude, Copilot, etc.) to build full-stack features across Next.js and Node.js",
-        "Review, test, and iterate on AI-generated code until it meets production standards",
-        "Debug issues across the stack — whether in AI output, your own work, or existing systems",
-        "Understand the requirements before building — ask questions, clarify scope, flag concerns early",
-        "Maintain and improve existing client products and internal systems",
-        "Communicate progress, blockers, and decisions clearly and proactively with the team",
-        "Participate in technical discussions and contribute to solution decisions"
+        "Use Claude, Cursor, or similar AI coding tools to generate feature code",
+        "Work with code that's been provided to you (by AI or team members)",
+        "Direct AI tools with clear prompts to get the output you need",
+        "Iterate with AI until the generated code looks right",
+        "Read documentation and requirements until 100% clear",
+        "Compare what was built against what was asked for",
+        "Verify every feature behaves exactly as specified",
+        "Flag discrepancies immediately",
+        "Test the happy path, then test everything that could go wrong",
+        "Try to break the feature in every way you can think of",
+        "Test edge cases, unusual inputs, and integration points",
+        "Document every issue you find",
+        "Read through the generated code to understand how it works",
+        "Trace logic flow from input to output",
+        "Understand the structure, dependencies, and integration points",
+        "Identify what's missing from the AI-generated code",
+        "Spot bugs, incomplete logic, or edge cases not handled",
+        "Use AI tools again to fill the gaps or fix the issues",
+        "Verify the fixes actually work",
+        "Make sure the feature is production-ready",
+        "Verify it integrates cleanly with existing systems",
+        "Ensure proper error handling and edge case coverage",
+        "Sign off only when you're confident it won't break"
       ],
       "whatYouWillOwn": [
-        "End-to-end delivery of features on live client products",
-        "Production reliability and correctness of what you ship",
-        "Code quality and integration within your areas of the codebase",
-        "Technical decisions within your features — approach, trade-offs, and execution"
+        "Build Features Using AI Tools (Not Hand-Coding)",
+        "Verify Requirements Match Reality",
+        "Test Thoroughly and Manually",
+        "Understand Code Deeply (Even If You Didn't Write It)",
+        "Find Gaps and Get Them Filled",
+        "Prepare for Deployment"
       ],
       "requirements": [
-        "2–4 years of hands-on experience building real full-stack JavaScript products",
-        "Strong proficiency in JavaScript and TypeScript",
-        "Experience with Next.js — this is our primary frontend framework",
-        "Backend experience with Node.js and Express.js",
-        "Database experience with PostgreSQL, MySQL, or MongoDB",
-        "Comfortable with Git, Docker, and basic CI/CD workflows",
-        "Hands-on experience with AI coding tools (Cursor, GitHub Copilot, Claude, or similar)",
-        "Strong debugging skills — you can track down and fix problems independently",
-        "Reliable and consistent — you follow through on what you commit to",
-        "Communicates openly and directly — no guessing games on status or blockers"
+        "2+ years experience building full-stack JavaScript applications (even if you used AI tools)",
+        "Comfortable reading and understanding Next.js, React, Node.js, Express code",
+        "Database knowledge (PostgreSQL, MySQL, or MongoDB)",
+        "Basic understanding of Git, Docker, and deployment workflows",
+        "Deep understanding ability — you can read code and truly understand what it does",
+        "Hands-on with AI coding tools — Cursor, Claude, GitHub Copilot, or similar (required)",
+        "Strong debugging skills — you can trace issues and understand root causes",
+        "Thorough testing mindset — you test until you find the problems",
+        "Documentation interpretation — you can read technical docs and know what needs to be built",
+        "Critical thinking — you question, verify, and don't accept things at face value",
+        "Gap identification — you see what's missing that others don't notice"
       ],
       "whoYouAre": [
-        "Sincere — you mean what you say and say what you mean, no performance",
-        "Committed — when you take something on, you see it through without being chased",
-        "Punctual and dependable — the team can count on you to show up and follow through",
-        "Serious about your work — you care about the quality of what you put your name on",
-        "A team player — you share context, support others, and don't work in isolation",
-        "A critical thinker — you question assumptions, spot problems early, and think before acting",
-        "Professional — you handle feedback well, communicate with respect, and stay composed under pressure",
-        "Honest — if something is blocked, unclear, or going wrong, you say so immediately"
+        "Takes ownership — when you say it's ready, you mean it",
+        "Honest communicator — you flag issues immediately, not after they're in production",
+        "Detail-oriented — you catch small problems before they become big ones",
+        "Follows through — you see things to completion without being chased",
+        "Asks questions — you clarify unclear requirements instead of guessing",
+        "Stays calm — you debug patiently and handle feedback professionally"
       ],
-      "niceToHave": [
-        "Experience in a product-focused or agency development environment",
-        "Exposure to multiple database technologies",
-        "Experience working on live production systems with real users",
-        "Familiarity with prompt engineering for development workflows"
+      "whatWeDoNotNeed": [
+        "Someone who wants to write every line of code by hand",
+        "Someone who sees AI tools as \"cheating\"",
+        "Someone who skips testing because \"it looks fine\"",
+        "Someone who ships first and asks questions later",
+        "Someone looking for a quick contract or stepping stone"
       ],
+      "technicalEnvironment": {
+        "workWith": [
+          "Frontend: Next.js, React, TypeScript",
+          "Backend: Node.js, Express.js",
+          "Databases: PostgreSQL, MySQL, MongoDB",
+          "Infrastructure: Docker, Git, CI/CD"
+        ],
+        "buildWith": [
+          "Claude (Anthropic's AI)",
+          "Cursor (AI-powered code editor)",
+          "GitHub Copilot",
+          "Other AI coding tools as they emerge"
+        ]
+      },
       "successMetrics": [
-        "Features shipped on time and without recurring post-ship issues",
-        "Low bug rate and minimal production incidents from your work",
-        "Code that fits cleanly into the existing system without creating new problems",
-        "The team always knows where your work stands",
-        "Growing scope and trust over time"
+        "Features ship with minimal post-deployment bugs",
+        "Issues are caught in testing, not in production",
+        "Code integrates cleanly without breaking existing features",
+        "Team always knows status — no surprises",
+        "Growing trust and expanding scope over time"
       ],
       "whyJoin": [
-        "Real ownership over what you build — not just executing tickets",
-        "On-site team environment with direct collaboration",
-        "Work on diverse software and AI-powered products across industries",
-        "Stable, long-term full-time role with room to grow",
-        "Team that values reliability and commitment over politics"
-      ]
+        "Work with cutting-edge AI tools from day one",
+        "Real ownership — you decide when something is ready",
+        "On-site team environment with collaboration and mentorship",
+        "Build diverse products — SaaS, custom software, AI-powered systems",
+        "Stable company (since 2003) with long-term growth path",
+        "Team that values quality over speed and appearances"
+      ],
+      "locationNote": "You must be based in Chattogram or willing to relocate. This is not a remote position."
     }
   ]
 }
