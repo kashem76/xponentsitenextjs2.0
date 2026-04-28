@@ -1,16 +1,18 @@
 // components/careers/detail/career-detail-why-join.tsx
 
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, MapPin } from "lucide-react";
 import Link from "next/link";
 
 interface CareerDetailWhyJoinProps {
   reasons: string[];
   jobId: string;
+  locationNote?: string;
 }
 
 export default function CareerDetailWhyJoin({
   reasons,
   jobId,
+  locationNote,
 }: CareerDetailWhyJoinProps) {
   return (
     <section className="py-16 lg:py-20 px-6 lg:px-8 bg-primary">
@@ -26,6 +28,13 @@ export default function CareerDetailWhyJoin({
             </div>
           ))}
         </div>
+
+        {locationNote && (
+          <div className="mb-10 flex items-start gap-4 p-4 rounded-lg bg-white/10">
+            <MapPin className="h-6 w-6 text-accent shrink-0 mt-0.5" />
+            <p className="text-lg text-white/90 leading-relaxed">{locationNote}</p>
+          </div>
+        )}
 
         <div className="pt-8 border-t border-white/20">
           <Link

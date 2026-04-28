@@ -141,6 +141,7 @@ export default async function CareerDetailPage({ params }: PageProps) {
         requirements={career.requirements}
         niceToHave={career.niceToHave}
         whoYouAre={career.whoYouAre}
+        whatWeDoNotNeed={career.whatWeDoNotNeed}
         technicalEnvironment={career.technicalEnvironment}
       />
 
@@ -159,7 +160,7 @@ export default async function CareerDetailPage({ params }: PageProps) {
 
       {/* Why Join */}
       {career.whyJoin && career.whyJoin.length > 0 && (
-        <CareerDetailWhyJoin reasons={career.whyJoin} jobId={career.id} />
+        <CareerDetailWhyJoin reasons={career.whyJoin} jobId={career.id} locationNote={career.locationNote} />
       )}
     </div>
   );

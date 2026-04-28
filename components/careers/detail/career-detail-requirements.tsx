@@ -1,18 +1,20 @@
 // components/careers/detail/career-detail-requirements.tsx
 
-import { CheckCircle, Monitor } from "lucide-react";
+import { CheckCircle, Monitor, XCircle } from "lucide-react";
 
 interface CareerDetailRequirementsProps {
   requirements?: string[];
   niceToHave?: string[];
   whoYouAre?: string[];
-  technicalEnvironment?: string[];
+  whatWeDoNotNeed?: string[];
+  technicalEnvironment?: string[] | { workWith: string[]; buildWith: string[] };
 }
 
 export default function CareerDetailRequirements({
   requirements,
   niceToHave,
   whoYouAre,
+  whatWeDoNotNeed,
   technicalEnvironment,
 }: CareerDetailRequirementsProps) {
   return (
@@ -55,19 +57,46 @@ export default function CareerDetailRequirements({
         </div>
 
         {/* Technical Environment */}
-        {technicalEnvironment && technicalEnvironment.length > 0 && (
+        {technicalEnvironment && (
           <div>
             <h2 className="text-2xl lg:text-3xl font-bold mb-8">
               Technical Environment
             </h2>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {technicalEnvironment.map((item, index) => (
-                <div key={index} className="flex items-start gap-4">
-                  <Monitor className="h-6 w-6 text-accent shrink-0 mt-0.5" />
-                  <p className="leading-relaxed">{item}</p>
+            {Array.isArray(technicalEnvironment) ? (
+              <div className="grid sm:grid-cols-2 gap-4">
+                {technicalEnvironment.map((item, index) => (
+                  <div key={index} className="flex items-start gap-4">
+                    <Monitor className="h-6 w-6 text-accent shrink-0 mt-0.5" />
+                    <p className="leading-relaxed">{item}</p>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div className="grid sm:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-lg font-semibold mb-4">You&apos;ll work with code in:</h3>
+                  <div className="space-y-3">
+                    {technicalEnvironment.workWith.map((item, index) => (
+                      <div key={index} className="flex items-start gap-4">
+                        <Monitor className="h-6 w-6 text-accent shrink-0 mt-0.5" />
+                        <p className="leading-relaxed">{item}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              ))}
-            </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-4">You&apos;ll build features using:</h3>
+                  <div className="space-y-3">
+                    {technicalEnvironment.buildWith.map((item, index) => (
+                      <div key={index} className="flex items-start gap-4">
+                        <Monitor className="h-6 w-6 text-primary shrink-0 mt-0.5" />
+                        <p className="leading-relaxed">{item}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         )}
 
@@ -82,6 +111,23 @@ export default function CareerDetailRequirements({
                 <div key={index} className="flex items-start gap-4">
                   <CheckCircle className="h-6 w-6 text-primary shrink-0 mt-0.5" />
                   <p className="leading-relaxed">{trait}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* What We Do NOT Need */}
+        {whatWeDoNotNeed && whatWeDoNotNeed.length > 0 && (
+          <div>
+            <h2 className="text-2xl lg:text-3xl font-bold mb-8">
+              What We Do NOT Need
+            </h2>
+            <div className="space-y-4">
+              {whatWeDoNotNeed.map((item, index) => (
+                <div key={index} className="flex items-start gap-4">
+                  <XCircle className="h-6 w-6 text-destructive shrink-0 mt-0.5" />
+                  <p className="leading-relaxed">{item}</p>
                 </div>
               ))}
             </div>
