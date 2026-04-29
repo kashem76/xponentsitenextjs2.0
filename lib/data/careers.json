@@ -11,7 +11,7 @@
       "isOpen": true,
       "urgent": true,
       "postedDate": "2026-04-12",
-      "overview": "Xponent, established in 2003 and operating from Chattogram, Bangladesh, builds custom software, AI-powered products, and SaaS platforms — including our own products in the digital marketing space. We are a growing technology company with a strong focus on product quality, engineering excellence, and long-term client success.\n\nAs we grow, we need someone to own the space between the founder and the development team. This is not a coding role. This is a leadership and delivery role. You will manage projects, lead developers, and ensure that what gets built is the right thing — delivered on time, with quality, and with clear communication throughout.",
+      "overview": "Xponent, established in 2003 and operating from Chattogram, Bangladesh, builds custom software, AI-powered products, and SaaS platforms — including our own ERP platform (abcERP), standalone SaaS products (OikikBooks, OikikHR, OikikInventory), and industry-specific solutions. We are a growing technology company with a strong focus on product quality, engineering excellence, and long-term client success.\n\nAs we grow, we need someone to own the space between the founder and the development team. This is not a coding role. This is a leadership and delivery role. You will manage projects, lead developers, and ensure that what gets built is the right thing — delivered on time, with quality, and with clear communication throughout.\n\nImportantly, Xponent operates as an AI-first development company. Our developers use Claude Code, Cursor, and GitHub Copilot as their primary tools — not hand-coding. You will be responsible for driving and maintaining this AI-first workflow across the team, ensuring adoption, quality, and output velocity.",
       "callout": "This role is not for someone looking for a short-term contract or a stepping stone. We are building a team for the long term. We are looking for someone who wants to grow here — into senior leadership — and build a career, not just fill a seat. If you are serious about that kind of trajectory, we want to hear from you.",
       "responsibilities": [
         "Take full ownership of project delivery — from kickoff to production",
@@ -21,6 +21,8 @@
         "Spot problems early — timeline risks, blockers, misalignment — and act before they escalate",
         "Run projects with structure and discipline without creating unnecessary process",
         "Hold the team to quality and reliability standards — not just deadlines",
+        "Drive and enforce AI-first development practices across the team — ensure developers use Claude Code, Cursor, and similar tools as their primary workflow",
+        "Use AI tools yourself for management tasks — drafting reports, breaking down projects, analyzing team performance, and making decisions faster",
         "Work with sincerity, diligence, and full professional accountability"
       ],
       "whatYouWillOwn": [
@@ -30,7 +32,9 @@
         "GitHub Projects for task tracking and progress visibility",
         "Identifying and resolving blockers before they impact delivery",
         "Ensuring quality and reliability standards before release",
-        "Running team check-ins and keeping everyone aligned"
+        "Running team check-ins and keeping everyone aligned",
+        "Driving AI-first development adoption — ensuring the team uses AI tools effectively and consistently",
+        "Managing delivery across multiple products: abcERP platform, standalone SaaS products, and client projects"
       ],
       "requirements": [
         "4–5 years in a technical project management or team lead role",
@@ -39,6 +43,7 @@
         "Strong team leadership and people management skills",
         "Excellent organisational, analytical, and communication skills",
         "Ability to troubleshoot and resolve technical and team challenges efficiently",
+        "Comfortable using AI tools (Claude, ChatGPT) for management work — reporting, planning, analysis, communication",
         "Comfortable working directly with a founder in a fast-moving environment",
         "Based in Chattogram or willing to relocate",
         "Bachelor's degree in Computer Science, Information Technology, or a related field preferred"
@@ -54,19 +59,25 @@
       "niceToHave": [
         "Experience in a product-focused or agency environment",
         "Familiarity with agile or kanban delivery methodologies",
-        "Prior experience in a founder-led or fast-moving startup"
+        "Prior experience in a founder-led or fast-moving startup",
+        "Experience managing teams that use AI-assisted development workflows",
+        "Understanding of ERP systems or SaaS product development"
       ],
       "successMetrics": [
         "Projects delivered on time and within scope",
         "Team stays focused, aligned, and unblocked",
         "Founder has full visibility into project status at all times",
         "Quality and reliability standards met before every release",
-        "Escalations handled early — problems don't reach the founder as surprises"
+        "Escalations handled early — problems don't reach the founder as surprises",
+        "Team fully adopted AI-first development — measurable output increase within 60 days",
+        "Multiple product streams (abcERP, Oikik suite, client projects) managed without bottlenecks"
       ],
       "whyJoin": [
         "Own the bridge between leadership and the development team",
         "Work directly with the founder in a high-trust, high-impact role",
         "Build and lead a team for the long term",
+        "Lead an AI-first engineering team — rare experience that puts you ahead of the industry",
+        "Manage delivery across a real product portfolio: ERP platform, SaaS products, and client projects",
         "Grow into senior leadership in a fast-moving technology company",
         "On-site environment with a serious, committed team"
       ]
@@ -838,7 +849,7 @@
       "isOpen": true,
       "urgent": true,
       "postedDate": "2026-04-28",
-      "overview": "Let's be clear from the start: You will not be writing code.\n\nAt Xponent, we build features using AI tools like Claude, Cursor, and GitHub Copilot. The AI writes the code. Your job is everything that comes after.\n\nYour role is to:\n• Use AI tools to generate the code we need\n• Work with code that's been written by AI or provided to you\n• Verify it does exactly what it's supposed to do\n• Test it thoroughly until you've found every issue\n• Understand it deeply enough to know if it's right or wrong\n• Find the gaps and get them filled\n• Make sure it's ready for production\n\nThis is a building role, not a coding role. You're building features by directing AI tools and verifying their output. You're ensuring quality, not typing syntax.\n\nThe skill we need is not \"can you write JavaScript from scratch.\" The skill we need is: Can you read code, understand it completely, verify it matches requirements, test it until it breaks, find what's missing, and know when it's ready to ship?\n\nIf you're someone who loves writing every line of code yourself from first principles, this role will frustrate you. If you're someone who wants to build features fast using the best tools available and take full ownership of quality, this is exactly the right role.",
+      "overview": "At Xponent, AI writes the first draft. You own the final product.\n\nWe build features using AI tools like Claude Code, Cursor, and GitHub Copilot. The AI generates the code. Your job is to direct it, review every line, test it thoroughly, and make sure what ships actually works.\n\nYour role is to:\n• Direct AI tools with clear prompts to generate the code we need\n• Read and understand every line of the output — deeply, not superficially\n• Verify it does exactly what the requirements say\n• Test it until you've found every issue — happy path, edge cases, failure modes\n• Identify what's missing and iterate with AI to fill the gaps\n• Take full ownership: when you say it's ready, it's ready\n\nThis is an AI-first development role. You're building features by directing AI and verifying its output, not by typing every line from scratch. But make no mistake — you need to be a strong developer. You must understand code deeply enough to catch when AI gets it wrong, because it will. Someone who can't write code manually can't review it either.\n\nThe skill we need is not \"can you type JavaScript fast.\" The skill we need is: Can you direct AI effectively, read its output critically, test it until it breaks, and ship something you'd stake your name on?\n\nIf you want to build features fast using the best tools available and take full ownership of quality, this is the right role. If you see AI as a threat rather than a tool, it's not.",
       "callout": "This is a long-term position with room to grow into senior and leadership roles. We're building a team for the long haul.",
       "responsibilities": [
         "Use Claude, Cursor, or similar AI coding tools to generate feature code",
@@ -895,9 +906,10 @@
         "Stays calm — you debug patiently and handle feedback professionally"
       ],
       "whatWeDoNotNeed": [
-        "Someone who wants to write every line of code by hand",
-        "Someone who sees AI tools as \"cheating\"",
+        "Someone who insists on hand-coding everything when AI can do the first draft faster",
+        "Someone who sees AI tools as \"cheating\" rather than a force multiplier",
         "Someone who skips testing because \"it looks fine\"",
+        "Someone who trusts AI output blindly without reading and verifying every line",
         "Someone who ships first and asks questions later",
         "Someone looking for a quick contract or stepping stone"
       ],
