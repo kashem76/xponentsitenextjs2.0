@@ -11,7 +11,7 @@
       "isOpen": true,
       "urgent": true,
       "postedDate": "2026-04-12",
-      "overview": "Xponent, established in 2003 and operating from Chattogram, Bangladesh, builds custom software, AI-powered products, and SaaS platforms — including our own ERP platform (abcERP), standalone SaaS products (OikikBooks, OikikHR, OikikInventory), and industry-specific solutions. We are a growing technology company with a strong focus on product quality, engineering excellence, and long-term client success.\n\nAs we grow, we need someone to own the space between the founder and the development team. This is not a coding role. This is a leadership and delivery role. You will manage projects, lead developers, and ensure that what gets built is the right thing — delivered on time, with quality, and with clear communication throughout.\n\nImportantly, Xponent operates as an AI-first development company. Our developers use Claude Code, Cursor, and GitHub Copilot as their primary tools — not hand-coding. You will be responsible for driving and maintaining this AI-first workflow across the team, ensuring adoption, quality, and output velocity.",
+      "overview": "Xponent, established in 2003 and operating from Chattogram, Bangladesh, builds custom software, AI-powered products, and SaaS platforms — including our own ERP platform (abcERP), standalone SaaS products (OikikBooks, OikikHR, OikikInventory), and industry-specific solutions. We are a growing technology company with a strong focus on product quality, engineering excellence, and long-term client success.\n\nAs we grow, we need someone to own the space between the founder and the development team. This is not a coding role. This is a leadership and delivery role. You will manage projects, lead developers, and ensure that what gets built is the right thing — delivered on time, with quality, and with clear communication throughout.\n\nImportantly, Xponent operates as an AI-first development company. Our developers use Claude Code, VS Code, and GitHub Copilot as their primary tools — not hand-coding. You will be responsible for driving and maintaining this AI-first workflow across the team, ensuring adoption, quality, and output velocity.",
       "callout": "This role is not for someone looking for a short-term contract or a stepping stone. We are building a team for the long term. We are looking for someone who wants to grow here — into senior leadership — and build a career, not just fill a seat. If you are serious about that kind of trajectory, we want to hear from you.",
       "responsibilities": [
         "Take full ownership of project delivery — from kickoff to production",
@@ -21,7 +21,7 @@
         "Spot problems early — timeline risks, blockers, misalignment — and act before they escalate",
         "Run projects with structure and discipline without creating unnecessary process",
         "Hold the team to quality and reliability standards — not just deadlines",
-        "Drive and enforce AI-first development practices across the team — ensure developers use Claude Code, Cursor, and similar tools as their primary workflow",
+        "Drive and enforce AI-first development practices across the team — ensure developers use Claude Code, VS Code, and similar tools as their primary workflow",
         "Use AI tools yourself for management tasks — drafting reports, breaking down projects, analyzing team performance, and making decisions faster",
         "Work with sincerity, diligence, and full professional accountability"
       ],
@@ -849,10 +849,10 @@
       "isOpen": true,
       "urgent": true,
       "postedDate": "2026-04-28",
-      "overview": "At Xponent, AI writes the first draft. You own the final product.\n\nWe build features using AI tools like Claude Code, Cursor, and GitHub Copilot. The AI generates the code. Your job is to direct it, review every line, test it thoroughly, and make sure what ships actually works.\n\nYour role is to:\n• Direct AI tools with clear prompts to generate the code we need\n• Read and understand every line of the output — deeply, not superficially\n• Verify it does exactly what the requirements say\n• Test it until you've found every issue — happy path, edge cases, failure modes\n• Identify what's missing and iterate with AI to fill the gaps\n• Take full ownership: when you say it's ready, it's ready\n\nThis is an AI-first development role. You're building features by directing AI and verifying its output, not by typing every line from scratch. But make no mistake — you need to be a strong developer. You must understand code deeply enough to catch when AI gets it wrong, because it will. Someone who can't write code manually can't review it either.\n\nThe skill we need is not \"can you type JavaScript fast.\" The skill we need is: Can you direct AI effectively, read its output critically, test it until it breaks, and ship something you'd stake your name on?\n\nIf you want to build features fast using the best tools available and take full ownership of quality, this is the right role. If you see AI as a threat rather than a tool, it's not.",
+      "overview": "At Xponent, AI writes the first draft. You own the final product.\n\nWe build features using AI tools like Claude Code, VS Code, and GitHub Copilot. The AI generates the code. Your job is to direct it, review every line, test it thoroughly, and make sure what ships actually works.\n\nYour role is to:\n• Direct AI tools with clear prompts to generate the code we need\n• Read and understand every line of the output — deeply, not superficially\n• Verify it does exactly what the requirements say\n• Test it until you've found every issue — happy path, edge cases, failure modes\n• Identify what's missing and iterate with AI to fill the gaps\n• Take full ownership: when you say it's ready, it's ready\n\nThis is an AI-first development role. You're building features by directing AI and verifying its output, not by typing every line from scratch. But make no mistake — you need to be a strong developer. You must understand code deeply enough to catch when AI gets it wrong, because it will. Someone who can't write code manually can't review it either.\n\nThe skill we need is not \"can you type JavaScript fast.\" The skill we need is: Can you direct AI effectively, read its output critically, test it until it breaks, and ship something you'd stake your name on?\n\nIf you want to build features fast using the best tools available and take full ownership of quality, this is the right role. If you see AI as a threat rather than a tool, it's not.",
       "callout": "This is a long-term position with room to grow into senior and leadership roles. We're building a team for the long haul.",
       "responsibilities": [
-        "Use Claude, Cursor, or similar AI coding tools to generate feature code",
+        "Use Claude Code (terminal or VS Code extension) as your primary tool to generate feature code",
         "Work with code that's been provided to you (by AI or team members)",
         "Direct AI tools with clear prompts to get the output you need",
         "Iterate with AI until the generated code looks right",
@@ -890,7 +890,7 @@
         "Database knowledge (PostgreSQL, MySQL, or MongoDB)",
         "Basic understanding of Git, Docker, and deployment workflows",
         "Deep understanding ability — you can read code and truly understand what it does",
-        "Hands-on with AI coding tools — Cursor, Claude, GitHub Copilot, or similar (required)",
+        "Hands-on with AI coding tools — Claude Code, VS Code, GitHub Copilot, or similar (required)",
         "Strong debugging skills — you can trace issues and understand root causes",
         "Thorough testing mindset — you test until you find the problems",
         "Documentation interpretation — you can read technical docs and know what needs to be built",
@@ -921,8 +921,8 @@
           "Infrastructure: Docker, Git, CI/CD"
         ],
         "buildWith": [
-          "Claude (Anthropic's AI)",
-          "Cursor (AI-powered code editor)",
+          "Claude Code (Anthropic's AI coding agent — primary tool)",
+          "VS Code with Claude Code extension",
           "GitHub Copilot",
           "Other AI coding tools as they emerge"
         ]
